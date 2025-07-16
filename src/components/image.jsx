@@ -17,13 +17,18 @@ export const Image = ({ title, description, largeImage, smallImage }) => {
     <>
       <div className="portfolio-item">
         <div className="hover-bg">
-          <a href="#" onClick={handleImageClick} title={title}>
+          <button 
+            type="button" 
+            onClick={handleImageClick} 
+            title={title}
+            style={{border: 'none', background: 'none', padding: 0, cursor: 'pointer', width: '100%'}}
+          >
             <div className="hover-text">
               <h4>{title}</h4>
               {description && <p style={{fontSize: '14px', margin: '10px 0', opacity: '0.9'}}>{description}</p>}
             </div>
             <img src={smallImage} className="img-responsive" alt={title} />
-          </a>
+          </button>
         </div>
       </div>
       

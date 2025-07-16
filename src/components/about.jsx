@@ -53,7 +53,7 @@ export const About = (props) => {
               <div style={{marginBottom: '80px'}}></div>
               <div className="partners-grid">
                 <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 1" />
+                  <img src="img/Yuccan Vector Transparent.png" alt="Partner 1" />
                 </div>
                 <div className="partner-logo">
                   <img src="img/Logo_2x_TP.png" alt="Partner 2" />
