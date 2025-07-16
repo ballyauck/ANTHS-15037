@@ -18,7 +18,11 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            <img 
+              src="/img/Banner_16x_TR_Trim&ColorEdit.png" 
+              alt="Company Logo" 
+              style={{height: '60px', width: 'auto', verticalAlign: 'middle'}}
+            />
           </a>{" "}
         </div>
 

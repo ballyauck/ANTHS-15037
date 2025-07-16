@@ -4,8 +4,11 @@
   color: white;
   font-weight: 600;
   overflow: hidden;
-  position: relative;
-  z-index: 1001;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -65,6 +68,20 @@
   100% {
     transform: translateX(-100%);
   }
+}
+
+/* Adjust navigation for promotional banner */
+#menu {
+  margin-top: 50px;
+}
+
+/* Hide banner when disabled */
+.promotional-banner.banner-disabled {
+  display: none;
+}
+
+.promotional-banner.banner-disabled ~ #menu {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 400px) {

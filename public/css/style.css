@@ -88,10 +88,10 @@ hr {
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  color: #555;
-  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  text-transform: none;
+  color: #28282B;
+  font-size: 16px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
@@ -104,12 +104,15 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #fd0003;
   content: "";
   transition: width 0.2s;
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+  color: #fd0003;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -125,7 +128,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: #fd0003 !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -208,7 +211,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/hero_composite.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -1,36 +1,60 @@
-import React, { useState } from "react";
+import React from "react";
 
 export const PromotionalBanner = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  // TOGGLE CONTROL: Set to true/1 to enable banner, false/0 to disable banner
+  // This is the main control for showing/hiding the promotional banner
+  const BANNER_ENABLED = true; // Change this to false to disable the banner completely
 
   const bannerItems = [
     {
-      type: "text",
-      content: "° 24/7 Emergency Electrical Services Available"
-    },
-    {
-      type: "text", 
-      content: "<‡ Residential & Commercial Electrical Solutions"
-    },
-    {
-      type: "text",
-      content: " Licensed & Insured Electricians"
-    },
-    {
-      type: "text",
-      content: "=ﬁ Call Now: (555) 123-POWER"
+      type: "multimedia",
+      content: (
+        <span>
+          <img 
+            src="/img/Logo_2x_TP.png" 
+            alt="Logo" 
+            style={{height: '20px', marginRight: '8px', verticalAlign: 'middle'}}
+          />
+          24/7 Emergency Electrical Services ‚ö°
+        </span>
+      )
     },
     {
       type: "text",
-      content: "=° Smart Home Automation Specialists"
+      content: "üè† Residential & Commercial Solutions"
+    },
+    {
+      type: "multimedia", 
+      content: (
+        <span>
+          ‚úÖ Licensed & Insured 
+          <strong style={{marginLeft: '10px', color: '#FFE082'}}>Call: (555) 123-POWER</strong>
+        </span>
+      )
     },
     {
       type: "text",
-      content: "=' Panel Upgrades & Rewiring Services"
+      content: "üí° Smart Home Automation Specialists"
+    },
+    {
+      type: "multimedia",
+      content: (
+        <span>
+          üîß Panel Upgrades 
+          <span style={{backgroundColor: 'rgba(255,255,255,0.2)', padding: '2px 6px', borderRadius: '3px', marginLeft: '8px'}}>
+            FREE QUOTES
+          </span>
+        </span>
+      )
+    },
+    {
+      type: "text",
+      content: "‚≠ê Trusted by 1000+ Local Customers"
     }
   ];
 
-  if (!isVisible) return null;
+  // If banner is disabled, return null (completely hidden)
+  if (!BANNER_ENABLED) return null;
 
   return (
     <div className="promotional-banner">
@@ -44,13 +68,6 @@ export const PromotionalBanner = () => {
             ))}
           </div>
         </div>
-        <button 
-          className="banner-close" 
-          onClick={() => setIsVisible(false)}
-          aria-label="Close banner"
-        >
-          ◊
-        </button>
       </div>
     </div>
   );
