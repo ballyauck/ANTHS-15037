@@ -20,8 +20,8 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <img 
               src="/img/Banner_16x_TR_Trim&ColorEdit.png" 
-              alt="Company Logo" 
-              style={{height: '60px', width: 'auto', verticalAlign: 'middle'}}
+              alt="CyberElectrix Logo" 
+              style={{height: '60px', width: 'auto'}}
             />
           </a>{" "}
         </div>

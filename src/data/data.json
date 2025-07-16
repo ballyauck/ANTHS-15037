@@ -1,100 +1,109 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Professional Electrical Services",
+    "paragraph": "Residential, Commercial & Industrial electrical solutions. Licensed, insured, and available 24/7 for all your electrical needs across Auckland."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "CyberElectrix is Auckland's trusted electrical services provider, specializing in residential, commercial, and industrial electrical solutions. From simple repairs to complex smart home installations, our licensed and insured electricians deliver quality workmanship with 24/7 emergency support. We combine traditional electrical expertise with cutting-edge technology to power your modern lifestyle.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Licensed & Insured Professionals",
+      "24/7 Emergency Response",
+      "Smart Technology Integration",
+      "Energy Efficiency Focus"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Residential & Commercial Expertise",
+      "Code Compliance Guaranteed",
+      "Solar & EV Charging Solutions",
+      "Preventive Maintenance Programs"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Residential Panel Upgrade",
+      "description": "Complete electrical panel upgrade for Auckland family home, increasing capacity from 100A to 200A service with modern safety features.",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Smart Home Automation",
+      "description": "Full smart home installation featuring intelligent lighting, automated security systems, and voice-controlled devices throughout Remuera residence.",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Commercial Office Wiring",
+      "description": "New construction electrical installation for modern Auckland office building, including structured cabling and energy-efficient LED lighting systems.",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "EV Charging Station Install",
+      "description": "Residential electric vehicle charging station installation with 240V Level 2 charger and smart monitoring capabilities.",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Solar PV System Integration",
+      "description": "Rooftop solar photovoltaic system installation with battery storage and grid-tie inverter for sustainable energy generation.",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Industrial Control Panel",
+      "description": "Custom control panel design and installation for manufacturing facility, featuring PLC programming and variable frequency drives.",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Emergency Generator Setup",
+      "description": "Standby generator installation with automatic transfer switch for critical power backup during outages at commercial facility.",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "LED Lighting Retrofit",
+      "description": "Energy-efficient LED lighting retrofit for retail space, reducing energy consumption by 60% while improving illumination quality.",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Electrical Safety Inspection",
+      "description": "Comprehensive electrical safety inspection and code compliance upgrade for historic Auckland property, ensuring modern safety standards.",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bolt",
+      "name": "General Electrical Services",
+      "text": "Complete electrical installations, repairs, and panel upgrades for residential, commercial, and industrial properties. From troubleshooting to new construction wiring, we handle all your electrical needs."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-clock-o",
+      "name": "24/7 Emergency Services",
+      "text": "Round-the-clock emergency electrical response when you need it most. Power outages, electrical faults, and urgent repairs - our licensed electricians are ready to restore your power safely."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Smart Home Automation",
+      "text": "Transform your home with intelligent lighting, smart thermostats, security systems, and voice-controlled devices. Complete smart home design and installation for modern living."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-car",
+      "name": "EV Charging Solutions",
+      "text": "Residential and commercial electric vehicle charging station installations. From simple home chargers to complex fleet charging infrastructure, power your electric future."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-leaf",
+      "name": "Energy Efficiency & Solar",
+      "text": "LED lighting retrofits, energy audits, solar PV installations, and battery storage systems. Reduce your energy costs while contributing to a sustainable future."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shield",
+      "name": "Safety & Compliance",
+      "text": "Electrical inspections, code compliance corrections, surge protection, and safety upgrades. Ensure your electrical systems meet all safety standards and regulations."
     }
   ],
   "Testimonials": [
@@ -152,33 +161,33 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "51 Abbotts Way, Remuera, Auckland 1050",
+    "phone": "027 573 3478",
+    "email": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-phone",
+      "title": "24/7 Availability",
+      "text": "Round-the-clock emergency electrical services across Auckland. When electrical emergencies strike, we're ready to respond immediately."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-certificate",
+      "title": "Licensed & Insured",
+      "text": "Fully licensed electricians with comprehensive insurance coverage. Peace of mind guaranteed with every electrical project we undertake."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cogs",
+      "title": "Modern Technology",
+      "text": "Cutting-edge electrical solutions including smart home automation, EV charging, and energy-efficient systems for the future."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-users",
+      "title": "Expert Team",
+      "text": "Experienced electrical professionals specializing in residential, commercial, and industrial electrical systems across all sectors."
     }
   ]
 }

@@ -8,8 +8,8 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Explore our portfolio of successful electrical projects across Auckland. 
+            From residential upgrades to commercial installations and industrial solutions.
           </p>
         </div>
         <div className="row">
@@ -22,6 +22,7 @@ export const Gallery = (props) => {
                   >
                     <Image
                       title={d.title}
+                      description={d.description}
                       largeImage={d.largeImage}
                       smallImage={d.smallImage}
                     />

@@ -1,0 +1,309 @@
+Services
+
+1. Core Electrical Services
+
+General electrical installations and repairs (residential, commercial, industrial)
+
+New construction wiring
+
+Electrical panel upgrades
+
+Troubleshooting and diagnostics
+
+Code compliance corrections
+
+Emergency electrical services
+
+
+2. Energy Efficiency & Sustainability
+
+LED lighting retrofits
+
+Energy audits
+
+Smart lighting controls
+
+Power factor correction
+
+High-efficiency motors and drives
+
+Installation of EV (electric vehicle) chargers (residential & commercial)
+
+Solar PV installations and maintenance
+
+Battery energy storage systems
+
+
+3. Smart Home & Building Automation
+
+Smart thermostats and HVAC controls
+
+Home automation system design and installation
+
+Smart security systems (cameras, doorbells, sensors)
+
+Remote monitoring systems
+
+Voice-controlled lighting and devices
+
+Building Management Systems (BMS) for commercial clients
+
+
+4. Data & Communications
+
+Structured cabling (Cat5e, Cat6, fiber optics)
+
+Home networking systems
+
+Wi-Fi coverage solutions
+
+Audio-visual system installation
+
+Data center power solutions
+
+Access control systems
+
+
+5. Safety & Compliance
+
+Electrical inspections
+
+Arc flash studies and mitigation
+
+Surge protection solutions
+
+Generator installation & maintenance
+
+Lightning protection systems
+
+Fire alarm system installation and testing
+
+Grounding and bonding services
+
+
+6. Industrial & Specialized Services
+
+Control panel design and building
+
+PLC (Programmable Logic Controller) programming and troubleshooting
+
+Variable Frequency Drive (VFD) installations
+
+Industrial machinery wiring and maintenance
+
+Power quality analysis
+
+Thermographic (infrared) inspections for preventative maintenance
+
+
+7. Emerging Technologies
+
+Microgrid systems
+
+Grid-tied and off-grid renewable solutions
+
+EV fleet charging infrastructure
+
+Electrification of industrial processes
+
+Power monitoring and energy management systems
+
+Integration of distributed energy resources (DER)
+
+
+8. Maintenance & Service Contracts
+
+Preventive maintenance programs
+
+24/7 emergency response
+
+Facility management support services
+
+Testing & tagging services
+
+Load bank testing
+
+
+
+
+Detailed description of Services Offered and in what sector (R=Residential, C=Commercial, I=Industrial)
+
+1. Essential Core Services
+
+General Electrical Work (R / C / I)
+
+New installations
+
+Rewiring and renovations
+
+Electrical troubleshooting & repairs
+
+Panel upgrades and capacity increases
+
+Service upgrades (e.g. from single-phase to three-phase in commercial/industrial)
+
+Emergency electrical services (24/7)
+
+
+2. Lighting (R / C / I)
+
+LED retrofits
+
+Security lighting
+
+Specialty lighting (e.g. landscape, architectural)
+
+Lighting control systems (dimmers, sensors)
+
+
+3. Safety & Compliance (R / C / I)
+
+Electrical inspections
+
+Code compliance corrections
+
+Surge protection
+
+Grounding and bonding
+
+Arc flash studies and labeling (C / I)
+
+
+4. Specialized Services
+
+Energy Efficiency & Renewables
+
+Energy audits & efficiency upgrades (C / I, some R)
+
+Solar PV system installations (R / C / I)
+
+Battery energy storage systems (R / C / I)
+
+EV charger installations — residential & commercial (R / C / I)
+
+Power factor correction (I)
+
+
+5. Smart Technology & Automation
+
+Smart home installations (lighting, thermostats, voice assistants) (R)
+
+Building Management Systems (BMS) (C / I)
+
+Access control systems (C / I)
+
+CCTV & security systems (R / C / I)
+
+Structured cabling and network wiring (C / I, occasionally R)
+
+
+6. Industrial Electrical Services (I, sometimes C)
+
+Control panel design and building
+
+PLC programming & troubleshooting
+
+VFD (Variable Frequency Drive) installation and commissioning
+
+Machine wiring and integration
+
+Power quality analysis
+
+Infrared thermography for predictive maintenance
+
+Load bank testing
+
+
+7. Back-Up Power Systems (R / C / I)
+
+Generator installations (standby and prime)
+
+UPS (Uninterruptible Power Supply) systems (C / I)
+
+Transfer switch installations
+
+
+8. Emerging & Future-Focused Services
+
+EV Infrastructure (R / C / I)
+
+Residential EV charger installation
+
+Commercial EV charging stations
+
+Industrial EV fleet charging infrastructure
+
+Microgrid & Distributed Energy (C / I, high-end R)
+
+Microgrid design and installation
+
+Grid-tied and off-grid solutions
+
+Integration of DERs (distributed energy resources)
+
+
+9. Power Monitoring & Management (C / I)
+
+Advanced metering systems
+
+Energy management software
+
+Power quality monitoring & correction
+
+
+10. Electrification of Industrial Processes (I)
+
+Electrification consulting
+
+High-efficiency motor upgrades
+
+Electrified heating systems
+
+
+11. Value-Added Services
+
+Maintenance Contracts (R / C / I)
+
+Preventive maintenance
+
+Periodic testing and inspections
+
+Equipment servicing schedules
+
+
+Contact Information
+
+Address: 51 Abbotts Way, Remuera, Auckland 1050.
+
+Mobile number: 0275733478
+
+email: DO NOT provide an email address, spambots take advantage of them
+
+The "Contact Us" form and text message via the mobile number should be the only way to send messages to the company. The contact us form will be wired to the email address: info@cyberelectrix.co.nz
+
+
+Other things to note about the website:
+
+Must-Have Features:
+
+Clean, modern design
+
+Optimized for smartphones (most customers will search for you on mobile)
+
+Clear services list (ideally organized by Residential, Commercial, Industrial)
+
+High-quality images of your work
+
+Online quote/request form
+
+Click-to-call and click-to-text buttons
+
+Google Maps integration
+
+Fast load times (under 3 seconds)
+
+Basic SEO optimization (e.g. “Electrician in [Your City]”)
+
+→ Why?
+Your website is your 24/7 salesperson. Many people won’t even call if your site looks outdated or incomplete.
+
