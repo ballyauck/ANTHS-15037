@@ -172,8 +172,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: #f8825a;
+  background-image: none;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -190,7 +190,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #fd0003;
 }
 .btn:active,
 .btn.active {
@@ -222,7 +222,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: transparent;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -246,8 +246,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 0;
   text-align: center;
 }
 /* Features Section */
@@ -319,8 +319,20 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 20px 10px;
+}
+
 #services .service-desc {
   margin: 10px 10px 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #services h2 {
   color: #fff;

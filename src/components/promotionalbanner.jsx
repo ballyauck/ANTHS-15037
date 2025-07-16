@@ -1,9 +1,10 @@
 import React from "react";
+import { PROMO_FEATURES_ENABLED } from "../config/promoConfig";
 
 export const PromotionalBanner = () => {
-  // TOGGLE CONTROL: Set to true/1 to enable banner, false/0 to disable banner
-  // This is the main control for showing/hiding the promotional banner
-  const BANNER_ENABLED = true; // Change this to false to disable the banner completely
+  // TOGGLE CONTROL: Now controlled by centralized config
+  // Change PROMO_FEATURES_ENABLED in src/config/promoConfig.js
+  const BANNER_ENABLED = PROMO_FEATURES_ENABLED;
 
   const bannerItems = [
     {
@@ -62,7 +63,7 @@ export const PromotionalBanner = () => {
       // Calculate offset for fixed menu bar
       const menuBar = document.getElementById('menu');
       const menuHeight = menuBar ? menuBar.offsetHeight : 80; // fallback to 80px
-      const promotionalBannerHeight = BANNER_ENABLED ? 50 : 0;
+      const promotionalBannerHeight = PROMO_FEATURES_ENABLED ? 50 : 0;
       const totalOffset = menuHeight + promotionalBannerHeight + 20; // 20px for spacing
       
       const targetPosition = promosSection.offsetTop - totalOffset;
@@ -75,11 +76,11 @@ export const PromotionalBanner = () => {
   };
 
   return (
-    <div className="promotional-banner" onClick={handleBannerClick} style={{cursor: 'pointer'}}>
+    <div className={`promotional-banner ${BANNER_ENABLED ? '' : 'banner-disabled'}`} onClick={handleBannerClick} style={{cursor: 'pointer'}}>
       <div className="banner-content">
         <div className="scrolling-wrapper">
           <div className="scrolling-content">
-            {bannerItems.concat(bannerItems).map((item, index) => (
+            {bannerItems.map((item, index) => (
               <span key={index} className="banner-item">
                 {item.content}
               </span>

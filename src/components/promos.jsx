@@ -1,9 +1,10 @@
 import React from "react";
+import { PROMO_FEATURES_ENABLED } from "../config/promoConfig";
 
 export const Promos = (props) => {
-  // TOGGLE CONTROL: Set to true/1 to enable promos section, false/0 to disable section
-  // This is the main control for showing/hiding the promos section
-  const PROMOS_ENABLED = true; // Change this to false to disable the section completely
+  // TOGGLE CONTROL: Now controlled by centralized config
+  // Change PROMO_FEATURES_ENABLED in src/config/promoConfig.js
+  const PROMOS_ENABLED = PROMO_FEATURES_ENABLED;
 
   // If promos section is disabled, return null (completely hidden)
   if (!PROMOS_ENABLED) return null;

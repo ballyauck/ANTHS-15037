@@ -1,21 +1,21 @@
 {
   "Header": {
     "title": "YOUR ONE-STOP MODERN PROFESSIONAL ELECTRICAL SERVICE PROVIDER",
-    "paragraph": "Solutions to your 21st Century Electrical, Mechanical, Solar & IIoT requirements in the Residential, Commercial & Industrial sectors.\n\nFully licensed, insured and backed by industry-recognised partners."
+    "paragraph": "Solutions to your 21st Century Electrical, Mechanical, Solar and IIoT requirements in the Residential, Commercial and Industrial sectors.\n\nFully licensed, insured and backed by industry-recognised partners."
   },
   "About": {
-    "paragraph": "CyberElectrix is Auckland's trusted electrical services provider, specializing in residential, commercial, and industrial electrical solutions. From simple repairs to complex smart home installations, our licensed and insured electricians deliver quality workmanship with 24/7 emergency support. We combine traditional electrical expertise with cutting-edge technology to power your modern lifestyle.",
+    "paragraph": "CyberElectrix is one of New Zealand's trusted electrical services providers; specializing in residential, commercial, and industrial electrical solutions. From simple domestic repairs to complex building management system (BMS) installations, our licensed and insured electricians deliver quality workmanship with 24/7 emergency service*. We combine traditional electrical expertise with cutting-edge technology to power your modern lifestyle.",
     "Why": [
       "Licensed & Insured Professionals",
-      "24/7 Emergency Response",
       "Smart Technology Integration",
-      "Energy Efficiency Focus"
+      "Energy Efficiency Focus",
+	  "Solar & EV Charging Solutions",
+	  "Preventive Maintenance Programs"
     ],
     "Why2": [
-      "Residential & Commercial Expertise",
-      "Code Compliance Guaranteed",
-      "Solar & EV Charging Solutions",
-      "Preventive Maintenance Programs"
+	  "Safety & Code Compliance Guaranteed",
+      "Residential, Commercial and Industrial Expertise",
+	  "Emergency Response within 24 hours maximum*"
     ]
   },
   "Gallery": [
@@ -198,22 +198,30 @@
     {
       "icon": "fa fa-phone",
       "title": "24/7 Availability",
-      "text": "Round-the-clock emergency electrical services across Auckland. When electrical emergencies strike, we're ready to respond immediately."
+      "text": "Round-the-clock emergency electrical services across Auckland. When electrical emergencies strike, we're ready to respond immediately.",
+      "image": "img/solutions/emergency-service.jpg",
+      "description": "Our 24/7 emergency electrical service ensures that you're never left in the dark. Whether it's a power outage, electrical fault, or urgent repair, our licensed electricians are on call around the clock to restore your electrical systems safely and efficiently. We understand that electrical emergencies don't wait for business hours, which is why we maintain a fully equipped emergency response team ready to tackle any electrical issue at any time of day or night."
     },
     {
       "icon": "fa fa-certificate",
       "title": "Licensed & Insured",
-      "text": "Fully licensed electricians with comprehensive insurance coverage. Peace of mind guaranteed with every electrical project we undertake."
+      "text": "Fully licensed electricians with comprehensive insurance coverage. Peace of mind guaranteed with every electrical project we undertake.",
+      "image": "img/solutions/licensed-insured.jpg",
+      "description": "All our electricians are fully licensed and certified, meeting the highest industry standards. We carry comprehensive insurance coverage to protect both our team and your property. Our commitment to professional standards means you can trust us with any electrical work, from simple repairs to complex installations. We stay current with all electrical codes and regulations, ensuring every job is completed to the highest safety standards."
     },
     {
       "icon": "fa fa-cogs",
       "title": "Modern Technology",
-      "text": "Cutting-edge electrical solutions including smart home automation, EV charging, and energy-efficient systems for the future."
+      "text": "Cutting-edge electrical solutions including smart home automation, EV charging, and energy-efficient systems for the future.",
+      "image": "img/solutions/smart-technology.jpg",
+      "description": "Embrace the future with our modern electrical solutions. We specialize in smart home automation, electric vehicle charging stations, energy-efficient LED lighting, and advanced electrical systems. Our team stays at the forefront of technological advances, bringing you the latest in electrical innovation. From voice-controlled lighting systems to solar panel installations, we help you create a modern, efficient, and sustainable electrical environment."
     },
     {
       "icon": "fa fa-users",
       "title": "Expert Team",
-      "text": "Experienced electrical professionals specializing in residential, commercial, and industrial electrical systems across all sectors."
+      "text": "Experienced electrical professionals specializing in residential, commercial, and industrial electrical systems across all sectors.",
+      "image": "img/solutions/expert-team.jpg",
+      "description": "Our team consists of highly skilled electrical professionals with extensive experience across residential, commercial, and industrial sectors. Each team member brings specialized knowledge and expertise to every project. We invest in continuous training and development to ensure our electricians are equipped with the latest skills and knowledge. When you choose CyberElectrix, you're getting a team that combines traditional electrical expertise with modern technological know-how."
     }
   ]
 }

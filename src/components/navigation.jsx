@@ -1,8 +1,9 @@
 import React from "react";
+import { PROMO_FEATURES_ENABLED } from "../config/promoConfig";
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+    <nav id="menu" className={`navbar navbar-default navbar-fixed-top ${PROMO_FEATURES_ENABLED ? 'with-promo-banner' : 'no-promo-banner'}`}>
       <div className="container">
         <div className="navbar-header">
           <button
@@ -56,14 +57,16 @@ export const Navigation = (props) => {
                 Testimonials
               </a>
             </li>
-            <li>
-              <a href="#promos" className="page-scroll">
-                Promos
-              </a>
-            </li>
+            {PROMO_FEATURES_ENABLED && (
+              <li>
+                <a href="#promos" className="page-scroll">
+                  Promos
+                </a>
+              </li>
+            )}
             <li>
               <a href="#contact" className="page-scroll">
-                Contact Us
+                Contact
               </a>
             </li>
           </ul>
