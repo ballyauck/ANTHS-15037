@@ -154,7 +154,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; {new Date().getFullYear()} CyberElectrix Ltd. Designed and Administered by{" "}
-            <a href="https://yuccan.tech" rel="nofollow">
+            <a href="https://yuccan.tech" target="_blank" rel="noopener noreferrer">
               Yuccan Technologies
             </a>
           </p>

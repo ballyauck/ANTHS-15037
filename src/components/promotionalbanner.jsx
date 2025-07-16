@@ -56,8 +56,26 @@ export const PromotionalBanner = () => {
   // If banner is disabled, return null (completely hidden)
   if (!BANNER_ENABLED) return null;
 
+  const handleBannerClick = () => {
+    const promosSection = document.getElementById('promos');
+    if (promosSection) {
+      // Calculate offset for fixed menu bar
+      const menuBar = document.getElementById('menu');
+      const menuHeight = menuBar ? menuBar.offsetHeight : 80; // fallback to 80px
+      const promotionalBannerHeight = BANNER_ENABLED ? 50 : 0;
+      const totalOffset = menuHeight + promotionalBannerHeight + 20; // 20px for spacing
+      
+      const targetPosition = promosSection.offsetTop - totalOffset;
+      
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
-    <div className="promotional-banner">
+    <div className="promotional-banner" onClick={handleBannerClick} style={{cursor: 'pointer'}}>
       <div className="banner-content">
         <div className="scrolling-wrapper">
           <div className="scrolling-content">

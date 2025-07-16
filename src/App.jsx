@@ -16,6 +16,14 @@ import "./App.css";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
+  offset: function(anchor, toggle) {
+    // Calculate dynamic offset for fixed menu bar and promotional banner
+    const menuBar = document.getElementById('menu');
+    const menuHeight = menuBar ? menuBar.offsetHeight : 80; // fallback to 80px
+    const promotionalBanner = document.querySelector('.promotional-banner');
+    const bannerHeight = promotionalBanner && !promotionalBanner.classList.contains('banner-disabled') ? 50 : 0;
+    return menuHeight + bannerHeight + 20; // 20px for spacing
+  }
 });
 
 const App = () => {
