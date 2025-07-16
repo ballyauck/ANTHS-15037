@@ -6,7 +6,7 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Portfolio</h2>
           <p>
             Explore our portfolio of successful electrical projects across Auckland. 
             From residential upgrades to commercial installations and industrial solutions.

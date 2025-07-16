@@ -84,6 +84,84 @@
   margin-top: 0;
 }
 
+/* Promos Section Styles */
+#promos {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.promo-item {
+  background: white;
+  border-radius: 10px;
+  padding: 30px 20px;
+  margin: 20px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.promo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.promo-icon {
+  margin-bottom: 20px;
+}
+
+.promo-icon i {
+  font-size: 42px;
+  color: #f8825a;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background: rgba(248, 130, 90, 0.1);
+}
+
+.promo-content h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.promo-description {
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.promo-offer {
+  margin-bottom: 15px;
+}
+
+.offer-text {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f8825a;
+  margin-bottom: 5px;
+}
+
+.discount-badge {
+  display: inline-block;
+  background: linear-gradient(45deg, #ff6b35, #f8825a);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.promo-terms {
+  font-size: 12px;
+  color: #999;
+  font-style: italic;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
@@ -94,7 +172,8 @@
   #testimonials,
   #team,
   #contact,
-  #footer {
+  #footer,
+  #promos {
     width: 111%;
   }
 

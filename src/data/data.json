@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "Professional Electrical Services",
-    "paragraph": "Residential, Commercial & Industrial electrical solutions. Licensed, insured, and available 24/7 for all your electrical needs across Auckland."
+    "title": "YOUR ONE-STOP MODERN PROFESSIONAL ELECTRICAL SERVICE PROVIDER",
+    "paragraph": "Solutions to your 21st Century Electrical, Mechanical, Solar & IIoT requirements in the Residential, Commercial & Industrial sectors.\n\nFully licensed, insured and backed by industry-recognised partners."
   },
   "About": {
     "paragraph": "CyberElectrix is Auckland's trusted electrical services provider, specializing in residential, commercial, and industrial electrical solutions. From simple repairs to complex smart home installations, our licensed and insured electricians deliver quality workmanship with 24/7 emergency support. We combine traditional electrical expertise with cutting-edge technology to power your modern lifestyle.",
@@ -158,6 +158,32 @@
       "img": "img/team/04.jpg",
       "name": "Karen Doe",
       "job": "Project Manager"
+    }
+  ],
+  "Promos": [
+    {
+      "icon": "fa fa-bolt",
+      "title": "Emergency Service Special",
+      "description": "24/7 emergency electrical services with no call-out fee for first-time customers.",
+      "offer": "FREE Call-Out Fee",
+      "discount": "Save $150",
+      "terms": "Valid for new customers only. Expires end of month."
+    },
+    {
+      "icon": "fa fa-home",
+      "title": "Smart Home Package",
+      "description": "Complete smart home automation installation with professional setup and training.",
+      "offer": "20% OFF Installation",
+      "discount": "Up to $800 OFF",
+      "terms": "Minimum 5 smart devices required. Valid until Dec 31st."
+    },
+    {
+      "icon": "fa fa-leaf",
+      "title": "Solar & EV Combo Deal",
+      "description": "Solar panel installation with EV charging station - the perfect sustainable combo.",
+      "offer": "Bundle & Save",
+      "discount": "15% OFF Total",
+      "terms": "Both services must be booked together. Limited time offer."
     }
   ],
   "Contact": {

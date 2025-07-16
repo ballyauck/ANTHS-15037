@@ -42,7 +42,7 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>Contact Us</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
                   get back to you as soon as possible.
@@ -153,9 +153,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; {new Date().getFullYear()} CyberElectrix Ltd. Designed and Administered by{" "}
+            <a href="https://yuccan.tech" rel="nofollow">
+              Yuccan Technologies
             </a>
           </p>
         </div>
