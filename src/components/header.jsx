@@ -51,7 +51,7 @@ export const Header = (props) => {
                   borderRadius: '10px'
                 }}>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
-                  href="#features"
+                  href="#solutions"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More

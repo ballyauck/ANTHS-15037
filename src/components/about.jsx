@@ -44,12 +44,13 @@ export const About = (props) => {
             </div>
           </div>
         </div>
-        
+        <div style={{marginBottom: '-20px'}}></div>
         {/* Our Partners Section */}
         <div className="row partners-section">
           <div className="col-xs-12">
             <div className="partners-content">
               <h3>Our Partners</h3>
+              <div style={{marginBottom: '80px'}}></div>
               <div className="partners-grid">
                 <div className="partner-logo">
                   <img src="img/Logo_2x_TP.png" alt="Partner 1" />
