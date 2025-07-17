@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Smart Home Setup Package - CyberElectrix Ltd" />
+  <title>Smart Home Setup Package - CyberElectrix</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css" />
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet" />
+</head>
+<body>
+  <div class="promo-detail-page">
+    <div class="container" style="padding: 30px 0;">
+      <!-- Logo -->
+      <div class="row" style="margin-bottom: 30px;">
+        <div class="col-md-12">
+          <a href="/" style="display: inline-block;">
+            <img src="/img/Banner_16x_TR_Trim&ColorEdit.png" alt="CyberElectrix Logo" style="height: 60px; width: auto;" />
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Product Image Carousel -->
+        <div class="col-md-6">
+          <div class="product-image-carousel">
+            <div class="carousel-container" style="position: relative;">
+              <div class="image-container" style="position: relative;">
+                <img id="productImage" src="img/promo3-detail-1.jpg" alt="Smart Home Setup Package" style="width: 100%; height: 400px; object-fit: cover; border-radius: 10px; background-color: #f8f9fa; border: 2px dashed #dee2e6;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                <div style="display: none; width: 100%; height: 400px; background-color: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 10px; align-items: center; justify-content: center; color: #6c757d; font-size: 18px;">
+                  Product Image Placeholder 1
+                </div>
+                
+                <!-- Left Arrow -->
+                <button onclick="prevImage()" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background-color: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                  ‹
+                </button>
+                
+                <!-- Right Arrow -->
+                <button onclick="nextImage()" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background-color: rgba(0,0,0,0.5); color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center;">
+                  ›
+                </button>
+              </div>
+              
+              <!-- Dot Indicators -->
+              <div style="text-align: center; margin-top: 15px; display: flex; justify-content: center; gap: 8px;">
+                <button onclick="goToImage(0)" id="dot0" style="width: 12px; height: 12px; border-radius: 50%; border: none; background-color: #f8825a; cursor: pointer; transition: background-color 0.3s ease;"></button>
+                <button onclick="goToImage(1)" id="dot1" style="width: 12px; height: 12px; border-radius: 50%; border: none; background-color: #dee2e6; cursor: pointer; transition: background-color 0.3s ease;"></button>
+                <button onclick="goToImage(2)" id="dot2" style="width: 12px; height: 12px; border-radius: 50%; border: none; background-color: #dee2e6; cursor: pointer; transition: background-color 0.3s ease;"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="col-md-6">
+          <div class="product-details">
+            <h1 style="color: #333; margin-bottom: 20px;">Smart Home Setup Package</h1>
+            
+            <div class="price-section" style="margin-bottom: 20px;">
+              <span class="current-price" style="font-size: 32px; font-weight: bold; color: #f8825a;">$599</span>
+              <span class="original-price" style="font-size: 24px; text-decoration: line-through; color: #999; margin-left: 15px;">$799</span>
+              <span class="discount-badge" style="background-color: #fd0003; color: white; padding: 5px 12px; border-radius: 20px; font-size: 14px; font-weight: bold; margin-left: 15px;">25% OFF</span>
+            </div>
+
+            <div class="product-description" style="margin-bottom: 30px;">
+              <h3 style="color: #333; margin-bottom: 15px;">Description</h3>
+              <p style="color: #666; line-height: 1.6;">Transform your home into a smart home with our comprehensive setup package. Includes smart switches, outlets, and automation system.</p>
+            </div>
+
+            <div class="product-features" style="margin-bottom: 30px;">
+              <h3 style="color: #333; margin-bottom: 15px;">Features</h3>
+              <ul style="padding-left: 20px;">
+                <li style="color: #666; margin-bottom: 8px;">Smart switch and outlet installation</li>
+                <li style="color: #666; margin-bottom: 8px;">Home automation system setup</li>
+                <li style="color: #666; margin-bottom: 8px;">Mobile app configuration</li>
+                <li style="color: #666; margin-bottom: 8px;">Voice control integration</li>
+                <li style="color: #666; margin-bottom: 8px;">Training and support included</li>
+              </ul>
+            </div>
+
+            <div class="product-actions">
+              <a href="/#contact" class="btn btn-custom btn-lg" style="margin-right: 15px; text-decoration: none;">Book Now</a>
+              <a href="/#promos" class="btn btn-outline-secondary btn-lg" style="background-color: transparent; border: 2px solid #6c757d; color: #6c757d; text-decoration: none;">Back to Promos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specifications Section -->
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-md-12">
+          <h3 style="color: #333; margin-bottom: 20px;">Specifications</h3>
+          <div class="specifications-table">
+            <table class="table table-striped">
+              <tbody>
+                <tr><td style="font-weight: bold; color: #333;">Service Type</td><td style="color: #666;">Smart Home Installation</td></tr>
+                <tr><td style="font-weight: bold; color: #333;">Duration</td><td style="color: #666;">2-3 Days</td></tr>
+                <tr><td style="font-weight: bold; color: #333;">Devices</td><td style="color: #666;">Up to 15 Smart Devices</td></tr>
+                <tr><td style="font-weight: bold; color: #333;">Support</td><td style="color: #666;">6 Months Free Support</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Terms Section -->
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-12">
+          <div class="terms-section" style="background-color: #f8f9fa; padding: 20px; border-radius: 10px; border: 1px solid #dee2e6;">
+            <h4 style="color: #333; margin-bottom: 15px;">Terms & Conditions</h4>
+            <p style="color: #666; margin: 0; font-size: 14px;">Smart devices not included in base price. Additional charges may apply for premium devices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer with Copyright -->
+    <div style="background-color: #f6f6f6; padding: 20px 0; margin-top: 50px; text-align: center;">
+      <div class="container">
+        <p style="color: #888; font-size: 14px; margin: 0;">
+          &copy; 2024 CyberElectrix Ltd. Designed and Administered by 
+          <a href="https://yuccan.tech" target="_blank" rel="noopener noreferrer" style="color: #608dfd;">Yuccan Technologies</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const images = [
+      "img/promo3-detail-1.jpg",
+      "img/promo3-detail-2.jpg", 
+      "img/promo3-detail-3.jpg"
+    ];
+    let currentImageIndex = 0;
+
+    function updateImage() {
+      document.getElementById('productImage').src = images[currentImageIndex];
+      // Update dots
+      for (let i = 0; i < 3; i++) {
+        document.getElementById('dot' + i).style.backgroundColor = i === currentImageIndex ? '#f8825a' : '#dee2e6';
+      }
+    }
+
+    function nextImage() {
+      currentImageIndex = currentImageIndex === images.length - 1 ? 0 : currentImageIndex + 1;
+      updateImage();
+    }
+
+    function prevImage() {
+      currentImageIndex = currentImageIndex === 0 ? images.length - 1 : currentImageIndex - 1;
+      updateImage();
+    }
+
+    function goToImage(index) {
+      currentImageIndex = index;
+      updateImage();
+    }
+
+    // Scroll to top when page loads
+    window.scrollTo(0, 0);
+  </script>
+</body>
+</html>

@@ -1,19 +1,13 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { PROMO_FEATURES_ENABLED } from "../config/promoConfig";
 
 export const Promos = (props) => {
   // TOGGLE CONTROL: Now controlled by centralized config
   // Change PROMO_FEATURES_ENABLED in src/config/promoConfig.js
   const PROMOS_ENABLED = PROMO_FEATURES_ENABLED;
-  const navigate = useNavigate();
 
   // If promos section is disabled, return null (completely hidden)
   if (!PROMOS_ENABLED) return null;
-
-  const handlePromoClick = (index) => {
-    navigate(`/promo/${index + 1}`);
-  };
 
   return (
     <div id="promos" className="text-center">
@@ -29,10 +23,15 @@ export const Promos = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-md-4">
-                  <div 
+                  <a 
+                    href={`promo${i + 1}.html`}
                     className="promo-item"
-                    onClick={() => handlePromoClick(i)}
-                    style={{ cursor: 'pointer' }}
+                    style={{ 
+                      cursor: 'pointer',
+                      textDecoration: 'none',
+                      color: 'inherit',
+                      display: 'block'
+                    }}
                   >
                     <div className="promo-icon">
                       <i className={d.icon}></i>
@@ -48,7 +47,7 @@ export const Promos = (props) => {
                       </div>
                       <p className="promo-terms">{d.terms}</p>
                     </div>
-                  </div>
+                  </a>
                 </div>
               ))
             : "Loading..."}

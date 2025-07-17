@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { PromotionalBanner } from "./components/promotionalbanner";
 import { Header } from "./components/header";
@@ -10,7 +9,6 @@ import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Promos } from "./components/promos";
 import { Contact } from "./components/contact";
-import { PromoDetail } from "./components/promodetail";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { PROMO_FEATURES_ENABLED } from "./config/promoConfig";
@@ -30,7 +28,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   }
 });
 
-const HomePage = () => {
+const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
@@ -49,17 +47,6 @@ const HomePage = () => {
       <Promos data={landingPageData.Promos} />
       <Contact data={landingPageData.Contact} />
     </div>
-  );
-};
-
-const App = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/promo/:id" element={<PromoDetail />} />
-      </Routes>
-    </Router>
   );
 };
 
