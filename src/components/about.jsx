@@ -50,7 +50,7 @@ export const About = (props) => {
           <div className="col-xs-12">
             <div className="partners-content">
               <h3>Our Partners</h3>
-              <div style={{marginBottom: '80px'}}></div>
+              <div style={{marginBottom: '40px'}}></div>
               <div className="partners-grid">
                 <div className="partner-logo">
                   <img src="img/Yuccan Vector Transparent.png" alt="Partner 1" />

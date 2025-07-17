@@ -18,11 +18,13 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
   offset: function(anchor, toggle) {
-    // Calculate dynamic offset for fixed menu bar and promotional banner
+    // Calculate offset to land at the very top of each section (just past navbar/banner)
     const menuBar = document.getElementById('menu');
     const menuHeight = menuBar ? menuBar.offsetHeight : 80; // fallback to 80px
     const bannerHeight = PROMO_FEATURES_ENABLED ? 50 : 0;
-    return menuHeight + bannerHeight + 20; // 20px for spacing
+    
+    // Just clear the fixed elements, don't add section padding
+    return menuHeight + bannerHeight;
   }
 });
 

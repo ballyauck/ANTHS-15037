@@ -7,8 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Professional electrical services for residential, commercial, and industrial clients. 
-            From emergency repairs to smart home installations, we power your electrical needs.
+            Explore our regular services for residential, commercial, and industrial clients.
           </p>
         </div>
         <div className="row">

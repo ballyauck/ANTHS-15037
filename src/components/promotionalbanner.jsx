@@ -28,7 +28,23 @@ export const PromotionalBanner = () => {
       type: "multimedia",
       content: (
         <span>
-          🔧 One-day Residential & Commercial Switchboard Upgrades for $300 excluding parts (Ends 31 August 2025); click for more info
+          🔧 One-day residential & commercial switchboard upgrades for $300 excluding parts (Ends 31 August 2025); click for more info
+        </span>
+      )
+    },
+    {
+      type: "multimedia",
+      content: (
+        <span>
+          💡 Save on your power bill this winter with our LED downlight retrofit deal for $30 per downlight flat rate (Ends 31 August 2025); click for more info
+        </span>
+      )
+    },
+    {
+      type: "multimedia",
+      content: (
+        <span>
+          ⏱️ Another power bill saver! Get our hot water cylinder timer fully installed for $150 flat rate (Ends 31 August 2025); click for more info
         </span>
       )
     },
@@ -40,27 +56,19 @@ export const PromotionalBanner = () => {
       type: "multimedia", 
       content: (
         <span>
-          ✅ Guaranteed Quality Products & Satisfaction on Costs 😀 👍
+          ✅ Guaranteed quality products & satisfaction on costs 😀 👍
           <strong style={{marginLeft: '10px', color: '#FFE082'}}> Call: 027 573 3478</strong>
         </span>
       )
-    },
-    {
-      type: "text",
-      content: "          "
     },
     {
       type: "multimedia", 
       content: (
         <span>
-          💰 💳 Let us help you save more in this economic climate 💲 💵
+          💰 💳 Let us help you save on your power bill this winter and beyond 💲 💵
           <strong style={{marginLeft: '10px', color: '#FFE082'}}> Call: 027 573 3478</strong>
         </span>
       )
-    },
-    {
-      type: "text",
-      content: "          "
     },
     {
       type: "multimedia", 
@@ -70,14 +78,6 @@ export const PromotionalBanner = () => {
           <strong style={{marginLeft: '10px', color: '#FFE082'}}> Call: 027 573 3478</strong>
         </span>
       )
-    },
-    {
-      type: "text",
-      content: "          "
-    },
-    {
-      type: "text",
-      content: "          "
     }
   ];
 
