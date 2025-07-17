@@ -130,7 +130,7 @@
     <div style="background-color: #f6f6f6; padding: 20px 0; margin-top: 50px; text-align: center;">
       <div class="container">
         <p style="color: #888; font-size: 14px; margin: 0;">
-          &copy; 2024 CyberElectrix Ltd. Designed and Administered by 
+          &copy; <span id="currentYear"></span> CyberElectrix Ltd. Designed and Administered by 
           <a href="https://yuccan.tech" target="_blank" rel="noopener noreferrer" style="color: #608dfd;">Yuccan Technologies</a>
         </p>
       </div>
@@ -170,6 +170,9 @@
 
     // Scroll to top when page loads
     window.scrollTo(0, 0);
+    
+    // Set current year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
