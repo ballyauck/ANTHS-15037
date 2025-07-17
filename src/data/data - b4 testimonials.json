@@ -111,6 +111,31 @@
       "img": "img/testimonials/01.jpg",
       "text": "\"I highly recommend the team at Cyberelectrix for any electrical work, no matter the size of the job. I engaged their services as part of a renovation project, and I was thoroughly impressed with their work. From the initial consultation, they were professional, responsive, and took the time to clearly explain the options available. The team was punctual, friendly, and worked efficiently, ensuring the job was completed on time and to a high standard. What stood out most was their attention to detail and commitment to safety and quality. They went above and beyond to make sure everything was done properly, and I felt confident throughout the entire process. It’s not always easy to find tradespeople you can trust, but the Cyberelectrix team made the experience stress-free and seamless. I wouldn’t hesitate to use their services again and will definitely be recommending them to friends and family.\"",
       "name": "A. Maxwell"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
     }
   ],
   "Team": [
@@ -174,28 +199,28 @@
       "icon": "fa fa-phone",
       "title": "24/7 Availability",
       "text": "Round-the-clock emergency electrical services across Auckland. When electrical emergencies strike, we're ready to respond immediately.",
-      "image": "img/solutions/01.jpg",
+      "image": "img/solutions/emergency-service.jpg",
       "description": "Our 24/7 emergency electrical service ensures that you're never left in the dark. Whether it's a power outage, electrical fault, or urgent repair, our licensed electricians are on call around the clock to restore your electrical systems safely and efficiently. We understand that electrical emergencies don't wait for business hours, which is why we maintain a fully equipped emergency response team ready to tackle any electrical issue at any time of day or night."
     },
     {
       "icon": "fa fa-certificate",
       "title": "Licensed & Insured",
       "text": "Fully licensed electricians with comprehensive insurance coverage. Peace of mind guaranteed with every electrical project we undertake.",
-      "image": "img/solutions/02.jpg",
+      "image": "img/solutions/licensed-insured.jpg",
       "description": "All our electricians are fully licensed and certified, meeting the highest industry standards. We carry comprehensive insurance coverage to protect both our team and your property. Our commitment to professional standards means you can trust us with any electrical work, from simple repairs to complex installations. We stay current with all electrical codes and regulations, ensuring every job is completed to the highest safety standards."
     },
     {
       "icon": "fa fa-cogs",
       "title": "Modern Technology",
       "text": "Cutting-edge electrical solutions including smart home automation, EV charging, and energy-efficient systems for the future.",
-      "image": "img/solutions/03.jpg",
+      "image": "img/solutions/smart-technology.jpg",
       "description": "Embrace the future with our modern electrical solutions. We specialize in smart home automation, electric vehicle charging stations, energy-efficient LED lighting, and advanced electrical systems. Our team stays at the forefront of technological advances, bringing you the latest in electrical innovation. From voice-controlled lighting systems to solar panel installations, we help you create a modern, efficient, and sustainable electrical environment."
     },
     {
       "icon": "fa fa-users",
       "title": "Expert Team",
       "text": "Experienced electrical professionals specializing in residential, commercial, and industrial electrical systems across all sectors.",
-      "image": "img/solutions/04.jpg",
+      "image": "img/solutions/expert-team.jpg",
       "description": "Our team consists of highly skilled electrical professionals with extensive experience across residential, commercial, and industrial sectors. Each team member brings specialized knowledge and expertise to every project. We invest in continuous training and development to ensure our electricians are equipped with the latest skills and knowledge. When you choose CyberElectrix, you're getting a team that combines traditional electrical expertise with modern technological know-how."
     }
   ]

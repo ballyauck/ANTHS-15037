@@ -8,9 +8,7 @@ export const Solutions = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Solutions</h2>
-          <p>
-            Comprehensive electrical solutions for residential, commercial, and industrial needs.
-            From smart home automation to industrial power systems.
+          <p>            
           </p>
         </div>
         <div className="row">
@@ -24,8 +22,8 @@ export const Solutions = (props) => {
                     <Image
                       title={d.title}
                       description={d.description}
-                      largeImage={`img/portfolio/0${(i % 9) + 1}-large.jpg`}
-                      smallImage={`img/portfolio/0${(i % 9) + 1}-small.jpg`}
+                      largeImage={`img/solutions/0${i + 1}-large.jpg`}
+                      smallImage={`img/solutions/0${i + 1}-small.jpg`}
                     />
                   </div>
                 ))

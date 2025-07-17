@@ -147,7 +147,7 @@ hr {
   background-color: #608dfd;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .section-title h2 {
   position: relative;
@@ -459,11 +459,11 @@ header .intro-text {
 #testimonials i {
   color: #e6e6e6;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .testimonial {
   position: relative;
-  padding: 20px;
+  padding: 1px;
 }
 .testimonial-image {
   float: left;
@@ -486,7 +486,7 @@ header .intro-text {
   font-style: italic;
 }
 .testimonial-meta {
-  margin-top: 10px;
+  margin-top: 5px;
   font-size: 15px;
   font-weight: 600;
   color: #666;
@@ -511,9 +511,9 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 50px 0 20px 0;
+  padding: 50px 0 10px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  color: #ffffff;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -604,7 +604,7 @@ label {
   margin: 20px 0;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   margin-bottom: 10px;
   display: block;
 }
