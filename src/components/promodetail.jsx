@@ -146,7 +146,7 @@ export const PromoDetail = () => {
                 <div className="image-container" style={{ position: "relative" }}>
                   <img 
                     src={promo.images[currentImageIndex]} 
-                    alt={`${promo.title} - Image ${currentImageIndex + 1}`}
+                    alt={promo.title}
                     style={{
                       width: "100%",
                       height: "400px",
