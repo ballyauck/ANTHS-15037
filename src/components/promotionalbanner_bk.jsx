@@ -16,68 +16,41 @@ export const PromotionalBanner = () => {
             alt="Logo" 
             style={{height: '20px', marginRight: '8px', verticalAlign: 'middle'}}
           />
-          ⚡Check out our current Promos!!⚡
+          24/7 Emergency Electrical Services ⚡
         </span>
       )
     },
     {
       type: "text",
-      content: "          "
+      content: "🏠 Residential & Commercial Solutions"
+    },
+    {
+      type: "multimedia", 
+      content: (
+        <span>
+          ✅ Licensed & Insured 
+          <strong style={{marginLeft: '10px', color: '#FFE082'}}>Call: (555) 123-POWER</strong>
+        </span>
+      )
+    },
+    {
+      type: "text",
+      content: "💡 Smart Home Automation Specialists"
     },
     {
       type: "multimedia",
       content: (
         <span>
-          🔧 One-day Residential & Commercial Switchboard Upgrades for $300 excluding parts (Ends 31 August 2025); click for more info
+          🔧 Panel Upgrades 
+          <span style={{backgroundColor: 'rgba(255,255,255,0.2)', padding: '2px 6px', borderRadius: '3px', marginLeft: '8px'}}>
+            FREE QUOTES
+          </span>
         </span>
       )
     },
     {
       type: "text",
-      content: "          "
-    },
-    {
-      type: "multimedia", 
-      content: (
-        <span>
-          ✅ Guaranteed Quality Products & Satisfaction on Costs 😀 👍
-          <strong style={{marginLeft: '10px', color: '#FFE082'}}> Call: 027 573 3478</strong>
-        </span>
-      )
-    },
-    {
-      type: "text",
-      content: "          "
-    },
-    {
-      type: "multimedia", 
-      content: (
-        <span>
-          💰 💳 Let us help you save more in this economic climate 💲 💵
-          <strong style={{marginLeft: '10px', color: '#FFE082'}}> Call: 027 573 3478</strong>
-        </span>
-      )
-    },
-    {
-      type: "text",
-      content: "          "
-    },
-    {
-      type: "multimedia", 
-      content: (
-        <span>
-          📱 🕿 📧 Contact us now to find out more
-          <strong style={{marginLeft: '10px', color: '#FFE082'}}> Call: 027 573 3478</strong>
-        </span>
-      )
-    },
-    {
-      type: "text",
-      content: "          "
-    },
-    {
-      type: "text",
-      content: "          "
+      content: "⭐ Trusted by 1000+ Local Customers"
     }
   ];
 
