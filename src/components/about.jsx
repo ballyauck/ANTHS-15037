@@ -52,30 +52,24 @@ export const About = (props) => {
               <h3>Our Partners</h3>
               <div style={{marginBottom: '40px'}}></div>
               <div className="partners-grid">
-                <div className="partner-logo">
-                  <img src="img/Yuccan Vector Transparent.png" alt="Partner 1" />
-                </div>
-                <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 2" />
-                </div>
-                <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 3" />
-                </div>
-                <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 4" />
-                </div>
-                <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 5" />
-                </div>
-                <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 6" />
-                </div>
-                <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 7" />
-                </div>
-                <div className="partner-logo">
-                  <img src="img/Logo_2x_TP.png" alt="Partner 8" />
-                </div>
+                {props.partners
+                  ? props.partners.map((partner, i) => (
+                      <a
+                        key={`${partner.name}-${i}`}
+                        href={partner.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="partner-logo"
+                        style={{
+                          textDecoration: 'none',
+                          cursor: 'pointer',
+                          display: 'block'
+                        }}
+                      >
+                        <img src={partner.image} alt={partner.name} />
+                      </a>
+                    ))
+                  : "Loading partners..."}
               </div>
             </div>
           </div>

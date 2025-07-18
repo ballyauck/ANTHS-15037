@@ -8,7 +8,8 @@ export const Solutions = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Solutions</h2>
-          <p>            
+          <p>
+		  Browse some of the packaged solutions we can provide you.
           </p>
         </div>
         <div className="row">

@@ -1,10 +1,10 @@
 {
   "Header": {
     "title": "YOUR ONE-STOP MODERN PROFESSIONAL ELECTRICAL SERVICE PROVIDER",
-    "paragraph": "Solutions for your 21st Century Electrical, Mechanical, Solar, and IIoT requirements in the Residential, Commercial and Industrial sectors.\n\nFully licensed, insured and backed by industry-recognised partners."
+    "paragraph": "Solutions for your 21st Century Electrical, Mechanical, Solar, and IIoT requirements in the Residential, Commercial and Industrial sectors.\n\nFully licensed, insured, and backed by industry-recognised partners."
   },
   "About": {
-    "paragraph": "CyberElectrix is one of New Zealand's trusted electrical services providers; specializing in residential, commercial, and industrial electrical solutions. From simple domestic repairs to complex building management system (BMS) installations, our licensed and insured electricians deliver quality workmanship with 24/7 emergency service*. We combine traditional electrical expertise with cutting-edge technology to power your modern lifestyle.",
+    "paragraph": "CyberElectrix is one of New Zealand's trusted electrical service providers; specializing in residential, commercial, and industrial electrical solutions. From simple domestic repairs to complex building management system (BMS) installations, our licensed and insured electricians deliver quality workmanship with 24/7 emergency service*. We combine traditional electrical expertise with cutting-edge technology to power your modern lifestyle.",
     "Why": [
       "Licensed & Insured Professionals",
       "Smart Technology Integration",
@@ -45,31 +45,31 @@
     },
     {
       "title": "Solar PV System Integration",
-      "description": "Rooftop solar photovoltaic system installation with battery storage and grid-tie inverter for sustainable energy generation.",
+      "description": "Rooftop solar photovoltaic system installation with grid-tie inverter for energy cost savings and sustainable energy generation.",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Industrial Control Panel",
-      "description": "Custom control panel design and installation for manufacturing facility, featuring PLC programming and variable frequency drives.",
+      "title": "Commercial Kitchen New Build",
+      "description": "Commercial kitchen built to consultant design specifications.",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Emergency Generator Setup",
-      "description": "Standby generator installation with automatic transfer switch for critical power backup during outages at commercial facility.",
+      "title": "House Renovation",
+      "description": "A 60s-era residential property received a full renovation to latest standards. Photos show before and after rangehood installation, and a stripped-down ensuite bathroom rebuilt with heated towel rail, LED-lighted mirror, and other modern fittings",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "LED Lighting Retrofit",
-      "description": "Energy-efficient LED lighting retrofit for retail space, reducing energy consumption by 60% while improving illumination quality.",
+      "title": "One-day Cost-effective Domestic Switchboard Upgrade",
+      "description": "Old-style meter and fuseboard combo box which was upgraded by mounting new-style circuit breakers inside plastic enclosures. This strategy saved the client about 70% of the costs for a full switchboard replacement.",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Electrical Safety Inspection",
-      "description": "Comprehensive electrical safety inspection and code compliance upgrade for historic Auckland property, ensuring modern safety standards.",
+      "title": "Decorative LED Lighting Retrofit",
+      "description": "Smart decorative LED tape and spot lights on a residential property masonry fence, controlled by sensors that detect people passing on sidewalk.",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
@@ -78,32 +78,32 @@
     {
       "icon": "fa fa-bolt",
       "name": "General Electrical Services",
-      "text": "Complete electrical installations, repairs, and panel upgrades for residential, commercial, and industrial properties. From troubleshooting to new construction wiring, we handle all your electrical needs."
-    },
-    {
-      "icon": "fa fa-clock-o",
-      "name": "24/7 Emergency Services",
-      "text": "Round-the-clock emergency electrical response when you need it most. Power outages, electrical faults, and urgent repairs - our licensed electricians are ready to restore your power safely."
-    },
-    {
-      "icon": "fa fa-home",
-      "name": "Smart Home Automation",
-      "text": "Transform your home with intelligent lighting, smart thermostats, security systems, and voice-controlled devices. Complete smart home design and installation for modern living."
-    },
-    {
-      "icon": "fa fa-car",
-      "name": "EV Charging Solutions",
-      "text": "Residential and commercial electric vehicle charging station installations. From simple home chargers to complex fleet charging infrastructure, power your electric future."
+      "text": "New installations, renovations, repairs, upgrades, isolations and demolitions; for residential, commercial, and industrial buildings/facilities."
     },
     {
       "icon": "fa fa-leaf",
-      "name": "Energy Efficiency & Solar",
-      "text": "LED lighting retrofits, energy audits, solar PV installations, and battery storage systems. Reduce your energy costs while contributing to a sustainable future."
+      "name": "Solar & Energy Efficiency Add-ons",
+      "text": "Solar PV and battery energy storage system (BESS) installations, LED lighting retrofits, smart monitoring meters, and energy audits. These will help you reduce your electricity costs while contributing to a sustainable future."
+    },
+    {
+      "icon": "fa fa-home",
+      "name": "Smart Home & Office Automation",
+      "text": "Transform your home and workspace with intelligent lighting, smart thermostats, security systems, and voice-controlled devices. Complete smart home and office design and installation for modern living and working."
+    },
+    {
+      "icon": "fa fa-car",
+      "name": "EV Charging Systems",
+      "text": "Safe and reliable residential and commercial electric vehicle charging station installations, including monitoring infrastructure."
     },
     {
       "icon": "fa fa-shield",
       "name": "Safety & Compliance",
-      "text": "Electrical inspections, code compliance corrections, surge protection, and safety upgrades. Ensure your electrical systems meet all safety standards and regulations."
+      "text": "Electrical inspections, code compliance corrections, surge protection, and safety upgrades. We help to ensure your electrical systems meet all current safety standards and regulations."
+    },
+    {
+      "icon": "fa fa-clock-o",
+      "name": "24/7 Emergency Services Options",
+      "text": "Round-the-clock emergency response when you need it most: critical faults requiring urgent repairs, emergency circuit installations, and last-minute system integration assistance."
     }
   ],
   "Testimonials": [
@@ -171,32 +171,67 @@
   },
   "Features": [
     {
-      "icon": "fa fa-phone",
-      "title": "24/7 Availability",
-      "text": "Round-the-clock emergency electrical services across Auckland. When electrical emergencies strike, we're ready to respond immediately.",
-      "image": "img/solutions/01.jpg",
-      "description": "Our 24/7 emergency electrical service ensures that you're never left in the dark. Whether it's a power outage, electrical fault, or urgent repair, our licensed electricians are on call around the clock to restore your electrical systems safely and efficiently. We understand that electrical emergencies don't wait for business hours, which is why we maintain a fully equipped emergency response team ready to tackle any electrical issue at any time of day or night."
+      "icon": "",
+      "title": "Key Information Gathering through IoT/IIoT Integration",
+      "text": "",
+      "image": "",
+      "description": "A growing number of Kiwis are interested in using smart sensors and actuators that communicate with each other and other systems to gain key knowledge, improve efficiency, and just have peace of mind. This is an area of deep expertise for us. If you've ever wished you could confirm if you actually turned off your gas stove before leaving the house, or if the livestock gate at your farm outstation has been opened, or anything similar, you've come to the right place. The adoption of IoT/IIoT in business operations is a basic requirement for Digital Transformation, and we're here to help."
     },
     {
-      "icon": "fa fa-certificate",
-      "title": "Licensed & Insured",
-      "text": "Fully licensed electricians with comprehensive insurance coverage. Peace of mind guaranteed with every electrical project we undertake.",
-      "image": "img/solutions/02.jpg",
-      "description": "All our electricians are fully licensed and certified, meeting the highest industry standards. We carry comprehensive insurance coverage to protect both our team and your property. Our commitment to professional standards means you can trust us with any electrical work, from simple repairs to complex installations. We stay current with all electrical codes and regulations, ensuring every job is completed to the highest safety standards."
+      "icon": "",
+      "title": "Energy Cost Savings through Energy Efficiency & Solar PV Adoption",
+      "text": "",
+      "image": "",
+      "description": "It's not just New Zealand; energy costs are rising globally, unfortunately. We're vested in helping families, businesses, and the larger community adopt ways of reducing their electricity bills. We use a two-pronged approach. The first aspect is the use of modern technology such as LED lighting, smart sensor switches, and timer switches to stop unnecessary electricity consumption. The second aspect is the use of Solar PV technology, standalone or combined with a tiered BESS for even more savings. Talk to us to find out more."
     },
     {
-      "icon": "fa fa-cogs",
-      "title": "Modern Technology",
-      "text": "Cutting-edge electrical solutions including smart home automation, EV charging, and energy-efficient systems for the future.",
-      "image": "img/solutions/03.jpg",
-      "description": "Embrace the future with our modern electrical solutions. We specialize in smart home automation, electric vehicle charging stations, energy-efficient LED lighting, and advanced electrical systems. Our team stays at the forefront of technological advances, bringing you the latest in electrical innovation. From voice-controlled lighting systems to solar panel installations, we help you create a modern, efficient, and sustainable electrical environment."
+      "icon": "",
+      "title": "Maintenance Optimization through Energy Audits & Power Quality Analysis",
+      "text": "",
+      "image": "",
+      "description": "Our experience has shown us that the majority of installation component failures i.e. protection relays, surge protectors, circuit breakers, cables, etc, are due to stress from aging and/or intermittently faulty equipment and fittings. We have the expertise to audit and analyze your industrial and commercial electrical installation for issues that could result in costly repairs, before they actually occur. Please get in touch if you're interested in finding out more."
+    }
+  ],
+  "Partners": [
+    {
+      "name": "Yuccan Technologies",
+      "image": "img/Yuccan Vector Transparent.png",
+      "url": "https://yuccan.tech"
     },
     {
-      "icon": "fa fa-users",
-      "title": "Expert Team",
-      "text": "Experienced electrical professionals specializing in residential, commercial, and industrial electrical systems across all sectors.",
-      "image": "img/solutions/04.jpg",
-      "description": "Our team consists of highly skilled electrical professionals with extensive experience across residential, commercial, and industrial sectors. Each team member brings specialized knowledge and expertise to every project. We invest in continuous training and development to ensure our electricians are equipped with the latest skills and knowledge. When you choose CyberElectrix, you're getting a team that combines traditional electrical expertise with modern technological know-how."
+      "name": "Partner 2",
+      "image": "img/Logo_2x_TP.png",
+      "url": "https://example2.com"
+    },
+    {
+      "name": "Partner 3",
+      "image": "img/Logo_2x_TP.png",
+      "url": "https://example3.com"
+    },
+    {
+      "name": "Partner 4",
+      "image": "img/Logo_2x_TP.png",
+      "url": "https://example4.com"
+    },
+    {
+      "name": "Partner 5",
+      "image": "img/Logo_2x_TP.png",
+      "url": "https://example5.com"
+    },
+    {
+      "name": "Partner 6",
+      "image": "img/Logo_2x_TP.png",
+      "url": "https://example6.com"
+    },
+    {
+      "name": "Partner 7",
+      "image": "img/Logo_2x_TP.png",
+      "url": "https://example7.com"
+    },
+    {
+      "name": "Partner 8",
+      "image": "img/Logo_2x_TP.png",
+      "url": "https://example8.com"
     }
   ]
 }

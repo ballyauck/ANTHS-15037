@@ -8,8 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Portfolio</h2>
           <p>
-            Explore our portfolio of successful electrical projects across Auckland. 
-            From residential upgrades to commercial installations and industrial solutions.
+            Read about some of the projects we carried out that made clients happy.
           </p>
         </div>
         <div className="row">

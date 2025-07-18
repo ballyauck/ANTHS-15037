@@ -39,7 +39,7 @@ const App = () => {
       <PromotionalBanner />
       <Navigation />
       <Header data={landingPageData.Header} />
-      <About data={landingPageData.About} />
+      <About data={landingPageData.About} partners={landingPageData.Partners} />
       <Services data={landingPageData.Services} />
       <Solutions data={landingPageData.Features} />
       <Gallery data={landingPageData.Gallery} />
