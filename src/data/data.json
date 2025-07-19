@@ -20,32 +20,32 @@
   },
   "Gallery": [
     {
-      "title": "Residential Panel Upgrade",
-      "description": "Complete electrical panel upgrade for Auckland family home, increasing capacity from 100A to 200A service with modern safety features.",
+      "title": "Commercial Switchboard Install",
+      "description": "Complete switchboard installation for a warehouse building upgrade and operations expansion with new machines, equipment, and office spaces.",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Smart Home Automation",
-      "description": "Full smart home installation featuring intelligent lighting, automated security systems, and voice-controlled devices throughout Remuera residence.",
+      "title": "Solar PV & BESS System Integration",
+      "description": "Rooftop twin array solar photovoltaic system installation with grid-tie inverter and battery energy storage system for huge energy cost savings and sustainable energy generation.",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Commercial Office Wiring",
-      "description": "New construction electrical installation for modern Auckland office building, including structured cabling and energy-efficient LED lighting systems.",
+      "title": "Hot Water Cylinder Timer Retrofit",
+      "description": "24/7 digital timer with internal battery backup for energy cost savings.",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "EV Charging Station Install",
-      "description": "Residential electric vehicle charging station installation with 240V Level 2 charger and smart monitoring capabilities.",
+      "title": "Residential EV Charging Station Install",
+      "description": "Residential smart monitoring capable electric vehicle charging station installation with regulation-mandated type B RCD.",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
       "title": "Solar PV System Integration",
-      "description": "Rooftop solar photovoltaic system installation with grid-tie inverter for energy cost savings and sustainable energy generation.",
+      "description": "Rooftop solar photovoltaic system installation with grid-tie inverter for good energy cost savings and sustainable energy generation.",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
@@ -57,7 +57,7 @@
     },
     {
       "title": "House Renovation",
-      "description": "A 60s-era residential property received a full renovation to latest standards. Photos show before and after rangehood installation, and a stripped-down ensuite bathroom rebuilt with heated towel rail, LED-lighted mirror, and other modern fittings",
+      "description": "A 70s-era residential property received a full renovation to latest standards. Photos show before and after rangehood installation, and a stripped-down ensuite bathroom rebuilt with heated towel rail, LED-lighted mirror, and other modern fittings",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
