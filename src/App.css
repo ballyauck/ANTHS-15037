@@ -348,11 +348,16 @@
   margin-bottom: 20px;
 }
 
-.modal-description {
+.modal-content .modal-description {
   font-size: 16px;
   line-height: 1.6;
   color: #666;
   margin: 0;
+  text-align: center !important;
+}
+
+.modal-body p {
+  text-align: center !important;
 }
 
 @media (max-width: 768px) {

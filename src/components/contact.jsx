@@ -1,39 +1,76 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
   name: "",
   email: "",
   message: "",
+  honeypot: "", // Hidden field for bot detection
 };
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, message, honeypot }, setState] = useState(initialState);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState("");
+  const [submitStatus, setSubmitStatus] = useState(""); // "success" or "error"
+  const [formStartTime] = useState(Date.now()); // Track when form was loaded
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
+    
+    // Clear any previous messages when user starts typing
+    if (submitMessage) {
+      setSubmitMessage("");
+      setSubmitStatus("");
+    }
   };
+  
   const clearState = () => setState({ ...initialState });
   
-  
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    // replace below with your own Service ID, Template ID and Public Key from your EmailJS account
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
+    setIsSubmitting(true);
+    setSubmitMessage("");
+    setSubmitStatus("");
+
+    try {
+      // Prepare form data
+      const formData = {
+        name: name.trim(),
+        email: email.trim(),
+        message: message.trim(),
+        formStartTime, // For timing validation
+        honeypot // Should be empty for legitimate users
+      };
+
+      // Make API call to our backend
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+        body: JSON.stringify(formData)
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitStatus("success");
+        setSubmitMessage(result.message);
+        clearState();
+      } else {
+        setSubmitStatus("error");
+        setSubmitMessage(result.message || "Failed to send message. Please try again.");
+      }
+
+    } catch (error) {
+      console.error('Contact form error:', error);
+      setSubmitStatus("error");
+      setSubmitMessage("Network error. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
   return (
     <div>
@@ -49,6 +86,17 @@ export const Contact = (props) => {
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
+                {/* Honeypot field - hidden from users, bots will fill it */}
+                <input 
+                  type="text" 
+                  name="honeypot" 
+                  value={honeypot}
+                  onChange={handleChange}
+                  style={{ position: 'absolute', left: '-9999px', opacity: 0 }}
+                  tabIndex="-1"
+                  autoComplete="off"
+                />
+                
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -58,7 +106,9 @@ export const Contact = (props) => {
                         name="name"
                         className="form-control"
                         placeholder="Name"
+                        value={name}
                         required
+                        disabled={isSubmitting}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -72,7 +122,9 @@ export const Contact = (props) => {
                         name="email"
                         className="form-control"
                         placeholder="Email"
+                        value={email}
                         required
+                        disabled={isSubmitting}
                         onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
@@ -85,15 +137,28 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Message (minimum 10 characters)"
+                    value={message}
                     required
+                    disabled={isSubmitting}
                     onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                
+                {/* Success/Error Messages */}
+                {submitMessage && (
+                  <div className={`alert ${submitStatus === 'success' ? 'alert-success' : 'alert-danger'}`} style={{marginBottom: '20px'}}>
+                    {submitMessage}
+                  </div>
+                )}
+                
+                <button 
+                  type="submit" 
+                  className="btn btn-custom btn-lg"
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
               </form>
             </div>
@@ -122,18 +187,33 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
+                    <a href={props.data ? props.data.facebook : "/"} title="Follow us on Facebook" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={props.data ? props.data.x : "/"} title="Follow us on X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-times"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href={props.data ? props.data.youtube : "/"} title="Subscribe to our YouTube channel" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.instagram : "/"} title="Follow us on Instagram" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.tiktok : "/"} title="Follow us on TikTok" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-play-circle"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : "/"} title="Contact us on WhatsApp" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
                 </ul>
