@@ -7,10 +7,10 @@ export const Testimonials = (props) => {
         <div className="section-title text-center">
           <h2>Testimonials</h2>
         </div>
-        <div className="row">
+        <div className="testimonials-grid">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
+                <div key={`${d.name}-${i}`} className="testimonial-item">
                   <div className="testimonial">
                     <div className="testimonial-image">
                       {" "}
