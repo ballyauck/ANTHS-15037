@@ -207,39 +207,9 @@
       "url": "https://yuccan.tech"
     },
     {
-      "name": "Partner 2",
-      "image": "img/Logo_2x_TP.png",
+      "name": "Active Electrical Suppliers",
+      "image": "img/Active_Electrical.png",
       "url": "https://example2.com"
-    },
-    {
-      "name": "Partner 3",
-      "image": "img/Logo_2x_TP.png",
-      "url": "https://example3.com"
-    },
-    {
-      "name": "Partner 4",
-      "image": "img/Logo_2x_TP.png",
-      "url": "https://example4.com"
-    },
-    {
-      "name": "Partner 5",
-      "image": "img/Logo_2x_TP.png",
-      "url": "https://example5.com"
-    },
-    {
-      "name": "Partner 6",
-      "image": "img/Logo_2x_TP.png",
-      "url": "https://example6.com"
-    },
-    {
-      "name": "Partner 7",
-      "image": "img/Logo_2x_TP.png",
-      "url": "https://example7.com"
-    },
-    {
-      "name": "Partner 8",
-      "image": "img/Logo_2x_TP.png",
-      "url": "https://example8.com"
     }
   ]
 }

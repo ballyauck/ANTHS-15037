@@ -121,10 +121,55 @@
 .partners-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   gap: 40px;
   max-width: 1000px;
   margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Specific positioning for different numbers of partners */
+.partners-grid > *:nth-child(1):nth-last-child(1) {
+  grid-column: 2 / 4;
+}
+
+.partners-grid > *:nth-child(1):nth-last-child(2),
+.partners-grid > *:nth-child(2):nth-last-child(1) {
+  grid-column: span 2;
+}
+
+.partners-grid > *:nth-child(1):nth-last-child(3) {
+  grid-column: 1 / 2;
+}
+.partners-grid > *:nth-child(2):nth-last-child(2) {
+  grid-column: 2 / 3;
+}
+.partners-grid > *:nth-child(3):nth-last-child(1) {
+  grid-column: 3 / 4;
+}
+
+/* For 5th element (second row, single item) */
+.partners-grid > *:nth-child(5):nth-last-child(1) {
+  grid-column: 2 / 4;
+}
+
+/* For 6th element (second row, first of two) */
+.partners-grid > *:nth-child(5):nth-last-child(2) {
+  grid-column: 2 / 3;
+}
+.partners-grid > *:nth-child(6):nth-last-child(1) {
+  grid-column: 3 / 4;
+}
+
+/* For 7th element (second row, first of three) */
+.partners-grid > *:nth-child(5):nth-last-child(3) {
+  grid-column: 1 / 2;
+}
+.partners-grid > *:nth-child(6):nth-last-child(2) {
+  grid-column: 2 / 3;
+}
+.partners-grid > *:nth-child(7):nth-last-child(1) {
+  grid-column: 3 / 4;
 }
 
 .partner-logo {
@@ -163,8 +208,18 @@
 @media (max-width: 768px) {
   .partners-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
     gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Reset desktop positioning rules for mobile */
+  .partners-grid > * {
+    grid-column: auto !important;
+  }
+  
+  /* Center single item on mobile */
+  .partners-grid > *:nth-child(odd):nth-last-child(1) {
+    grid-column: 1 / 3;
   }
 }
 
