@@ -146,6 +146,44 @@ hr {
 .navbar-default .navbar-toggle:hover > .icon-bar {
   background-color: #608dfd;
 }
+
+/* Call link styles */
+.call-link-mobile .call-link {
+  background-color: #28a745 !important;
+  color: #fff !important;
+  border-radius: 20px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid #28a745 !important;
+}
+
+.call-link-mobile .call-link:hover {
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+  color: #fff !important;
+  transform: scale(1.05);
+}
+
+.call-link-mobile .call-link:after {
+  display: none !important;
+}
+
+/* Show call link on all screen sizes but make it more prominent on mobile */
+@media (max-width: 767px) {
+  .call-link-mobile {
+    order: -1;
+    margin-bottom: 10px;
+  }
+  
+  .call-link-mobile .call-link {
+    display: block;
+    text-align: center;
+    font-size: 16px !important;
+    padding: 12px 20px !important;
+  }
+}
+
 .section-title {
   margin-bottom: 50px;
 }

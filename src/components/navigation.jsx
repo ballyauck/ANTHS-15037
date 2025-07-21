@@ -32,6 +32,12 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
+            <li className="call-link-mobile">
+              <a href="tel:+64275733478" className="call-link">
+                <i className="fa fa-phone" style={{marginRight: '8px'}}></i>
+                Call Now
+              </a>
+            </li>
             <li>
               <a href="#about" className="page-scroll">
                 About
