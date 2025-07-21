@@ -147,41 +147,64 @@ hr {
   background-color: #608dfd;
 }
 
-/* Call link styles */
-.call-link-mobile .call-link {
+/* Navbar call button styles */
+.navbar-call-btn {
+  position: absolute !important;
+  right: 70px;
+  top: 50%;
+  transform: translateY(-50%);
   background-color: #28a745 !important;
   color: #fff !important;
-  border-radius: 20px !important;
-  padding: 8px 16px !important;
+  border-radius: 25px !important;
+  padding: 10px 16px !important;
   font-weight: 600 !important;
+  text-decoration: none !important;
   transition: all 0.3s ease !important;
   border: 2px solid #28a745 !important;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  z-index: 1000;
 }
 
-.call-link-mobile .call-link:hover {
+.navbar-call-btn:hover {
   background-color: #218838 !important;
   border-color: #1e7e34 !important;
   color: #fff !important;
-  transform: scale(1.05);
+  transform: translateY(-50%) scale(1.05) !important;
+  text-decoration: none !important;
 }
 
-.call-link-mobile .call-link:after {
-  display: none !important;
+.navbar-call-btn:focus {
+  color: #fff !important;
+  text-decoration: none !important;
 }
 
-/* Show call link on all screen sizes but make it more prominent on mobile */
+/* Mobile responsive adjustments */
 @media (max-width: 767px) {
-  .call-link-mobile {
-    order: -1;
-    margin-bottom: 10px;
+  .navbar-call-btn {
+    right: 15px !important;
+    padding: 8px 12px !important;
+    font-size: 13px !important;
   }
   
-  .call-link-mobile .call-link {
-    display: block;
-    text-align: center;
-    font-size: 16px !important;
-    padding: 12px 20px !important;
+  .navbar-call-btn .call-text {
+    display: none;
   }
+  
+  .navbar-call-btn {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    justify-content: center !important;
+    padding: 0 !important;
+  }
+}
+
+/* Ensure navbar header has relative positioning */
+.navbar-header {
+  position: relative !important;
 }
 
 .section-title {

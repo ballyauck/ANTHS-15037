@@ -24,7 +24,11 @@ export const Navigation = (props) => {
               alt="CyberElectrix Logo" 
               style={{height: '60px', width: 'auto'}}
             />
-          </a>{" "}
+          </a>
+          <a href="tel:+64275733478" className="navbar-call-btn">
+            <i className="fa fa-phone"></i>
+            <span className="call-text">Call Now</span>
+          </a>
         </div>
 
         <div
@@ -32,12 +36,6 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            <li className="call-link-mobile">
-              <a href="tel:+64275733478" className="call-link">
-                <i className="fa fa-phone" style={{marginRight: '8px'}}></i>
-                Call Now
-              </a>
-            </li>
             <li>
               <a href="#about" className="page-scroll">
                 About
