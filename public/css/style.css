@@ -274,7 +274,7 @@ hr {
     margin-top: 15px !important;
   }
 
-  /* SOLUTION: Full-width sections using container expansion approach */
+  /* SOLUTION: Full-width sections with proper centering */
   #about,
   #services,
   #solutions,
@@ -285,8 +285,9 @@ hr {
   #footer {
     margin-left: -15px !important;
     margin-right: -15px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: calc(100% + 30px) !important;
   }
 
   /* RESTORE Hero section to normal behavior */
@@ -870,7 +871,7 @@ label {
     margin: 0;
   }
   
-  /* MOBILE GAP FIX: Full-width sections using container expansion */
+  /* MOBILE GAP FIX: Full-width sections with proper centering */
   #about,
   #services,
   #solutions,
@@ -881,8 +882,9 @@ label {
   #footer {
     margin-left: -15px !important;
     margin-right: -15px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    width: calc(100% + 30px) !important;
   }
 
   /* RESTORE Hero section to normal behavior */
