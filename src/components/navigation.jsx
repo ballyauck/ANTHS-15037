@@ -25,11 +25,12 @@ export const Navigation = (props) => {
               style={{height: '60px', width: 'auto'}}
             />
           </a>
-          <a href="tel:+64275733478" className="navbar-call-btn">
-            <i className="fa fa-phone"></i>
-            <span className="call-text">Call Now</span>
-          </a>
         </div>
+        
+        <a href="tel:+64275733478" className="navbar-call-btn">
+          <i className="fa fa-phone"></i>
+          <span className="call-text">Call Now</span>
+        </a>
 
         <div
           className="collapse navbar-collapse"

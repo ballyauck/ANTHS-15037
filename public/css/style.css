@@ -150,9 +150,9 @@ hr {
 /* Navbar call button styles */
 .navbar-call-btn {
   position: absolute !important;
-  right: 70px;
-  top: 50%;
-  transform: translateY(-50%);
+  right: -100px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
   background-color: #28a745 !important;
   color: #fff !important;
   border-radius: 25px !important;
@@ -165,7 +165,7 @@ hr {
   display: flex !important;
   align-items: center !important;
   gap: 6px !important;
-  z-index: 1000;
+  z-index: 1000 !important;
 }
 
 .navbar-call-btn:hover {
@@ -184,26 +184,25 @@ hr {
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
   .navbar-call-btn {
-    right: 15px !important;
+    right: 60px !important;
     padding: 8px 12px !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
+    border-radius: 20px !important;
+    min-width: auto !important;
   }
   
   .navbar-call-btn .call-text {
-    display: none;
-  }
-  
-  .navbar-call-btn {
-    width: 40px !important;
-    height: 40px !important;
-    border-radius: 50% !important;
-    justify-content: center !important;
-    padding: 0 !important;
+    display: inline !important;
   }
 }
 
 /* Ensure navbar header has relative positioning */
 .navbar-header {
+  position: relative !important;
+}
+
+/* Ensure container has relative positioning for call button */
+#menu .container {
   position: relative !important;
 }
 
