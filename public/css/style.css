@@ -200,29 +200,38 @@ hr {
     padding-bottom: 10px !important;
   }
 
-  /* Simple edge-to-edge approach without breaking content */
-  #services,
+  /* Surgical full-width for content sections only - excludes #header and #menu */
+  #about,
+  #services, 
   #solutions,
   #portfolio,
   #testimonials,
   #contact,
   #promos {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
-  /* Ensure content containers maintain proper spacing */
+  /* Ensure content containers maintain proper spacing within full-width sections */
+  #about .container,
   #services .container,
   #solutions .container,
   #portfolio .container,
   #testimonials .container,
   #contact .container,
   #promos .container {
+    width: 100% !important;
+    max-width: 100% !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
     margin: 0 auto !important;
+    position: relative !important;
+    left: auto !important;
   }
 
   /* Social media icons grid - 2 rows of 3 */
