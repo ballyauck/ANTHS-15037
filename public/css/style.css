@@ -209,7 +209,7 @@ hr {
   .navbar-call-btn {
     position: relative !important;
     display: inline-block !important;
-    margin: 25px 15px -22px 15px !important;
+    margin: 20px 15px -22px 15px !important;
     padding: 6px 12px !important;
     font-size: 11px !important;
     border-radius: 15px !important;
@@ -220,18 +220,23 @@ hr {
     display: inline !important;
   }
   
-  /* Hamburger menu - stays in top right */
+  /* Hamburger menu - stays in top right with expanded touch area */
   .navbar-toggle {
     position: absolute !important;
-    right: 15px !important;
-    top: 15px !important;
+    right: 5px !important;
+    top: 5px !important;
     margin: 0 !important;
+    padding: 15px !important;
+    min-width: 50px !important;
+    min-height: 50px !important;
+    border: none !important;
+    background: transparent !important;
   }
 
   /* Hero section scaling for mobile */
   header .intro-text {
     padding-top: 40px !important;
-    padding-bottom: 0 !important;
+    padding-bottom: 20px !important;
   }
   
   /* Scale down hero text for mobile readability */
