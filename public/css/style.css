@@ -200,28 +200,28 @@ hr {
     padding-bottom: 10px !important;
   }
 
-  /* Full width sections on mobile - extend beyond container */
+  /* Override App.css width settings and force full width sections */
+  #about,
   #services,
   #solutions,
   #portfolio,
   #testimonials,
-  #contact {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+  #contact,
+  #promos {
     width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
     position: relative !important;
-    left: 50% !important;
-    right: 50% !important;
-    margin-left: -50vw !important;
-    margin-right: -50vw !important;
   }
 
   /* Center content within full-width sections */
+  #about .container,
   #services .container,
   #solutions .container,
   #portfolio .container,
   #testimonials .container,
-  #contact .container {
+  #contact .container,
+  #promos .container {
     max-width: 100% !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
@@ -230,11 +230,13 @@ hr {
   }
 
   /* Ensure text content is centered */
+  #about .section-title,
   #services .section-title,
   #solutions .section-title,
   #portfolio .section-title,
   #testimonials .section-title,
-  #contact .section-title {
+  #contact .section-title,
+  #promos .section-title {
     text-align: center !important;
   }
 
