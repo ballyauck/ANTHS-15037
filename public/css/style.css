@@ -184,7 +184,7 @@ hr {
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
   .navbar-call-btn {
-    right: 60px !important;
+    right: 70px !important;
     padding: 8px 12px !important;
     font-size: 12px !important;
     border-radius: 20px !important;
