@@ -200,6 +200,38 @@ hr {
     padding-bottom: 10px !important;
   }
 
+  /* Safe full-width sections - only target specific content sections */
+  #services,
+  #solutions,
+  #portfolio,
+  #testimonials,
+  #contact,
+  #promos {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Ensure sections extend to viewport edges */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  #services,
+  #solutions, 
+  #portfolio,
+  #testimonials,
+  #contact,
+  #promos {
+    box-sizing: border-box;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+  }
+
   /* Social media icons grid - 2 rows of 3 */
   #contact .social ul {
     display: grid !important;
