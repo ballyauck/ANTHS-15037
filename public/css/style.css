@@ -183,28 +183,9 @@ hr {
 
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
-  /* Ensure no body/html margins or padding on mobile */
+  /* Only prevent horizontal overflow on mobile */
   body, html {
-    margin: 0 !important;
-    padding: 0 !important;
     overflow-x: hidden !important;
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* Ensure main app container doesn't constrain width but exclude navbar */
-  body > div:not(#menu), .App, #root {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden !important;
-  }
-
-  /* Reset navbar containers to normal behavior */
-  #menu, #menu .container, .navbar-header {
-    width: auto !important;
-    max-width: none !important;
   }
 
   .navbar-call-btn {
@@ -224,7 +205,7 @@ hr {
     padding-bottom: 10px !important;
   }
 
-  /* Override App.css width settings and force full width sections */
+  /* Force full width sections with better calculation */
   #about,
   #services,
   #solutions,
@@ -233,9 +214,11 @@ hr {
   #contact,
   #promos {
     width: 100vw !important;
-    margin-left: calc(-50vw + 50%) !important;
-    margin-right: calc(-50vw + 50%) !important;
     position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   /* Center content within full-width sections */
