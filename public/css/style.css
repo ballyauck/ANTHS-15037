@@ -183,6 +183,24 @@ hr {
 
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
+  /* Ensure no body/html margins or padding on mobile */
+  body, html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Ensure main app container doesn't constrain width */
+  body > div, .App, #root {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+  }
+
   .navbar-call-btn {
     right: 70px !important;
     padding: 8px 12px !important;
