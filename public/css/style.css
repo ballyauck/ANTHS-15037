@@ -188,6 +188,11 @@ hr {
 
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
+  /* Reduce navbar container padding for compact height */
+  #menu {
+    padding: 5px 15px !important;
+  }
+  
   /* Simple vertical layout for navbar-header */
   .navbar-header {
     float: none !important;
