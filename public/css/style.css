@@ -184,19 +184,44 @@ hr {
 
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
+  /* Rearrange navbar for vertical layout */
+  .navbar-header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    width: calc(100% - 60px) !important;
+    position: relative !important;
+  }
+  
+  /* Logo positioning - stays on top */
+  #menu a.navbar-brand {
+    margin-bottom: 5px !important;
+    padding: 8px 0 !important;
+  }
+  
+  /* Call Now button - positioned below logo */
   .navbar-call-btn {
-    right: 60px !important;
-    top: 15px !important;
-    position: absolute !important;
-    padding: 6px 10px !important;
+    position: static !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 6px 12px !important;
     font-size: 11px !important;
     border-radius: 15px !important;
-    min-width: auto !important;
+    width: auto !important;
     z-index: 1001 !important;
   }
   
   .navbar-call-btn .call-text {
     display: inline !important;
+  }
+  
+  /* Hamburger menu - stays right-aligned and centered */
+  .navbar-toggle {
+    position: absolute !important;
+    right: 15px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    margin: 0 !important;
   }
 
   /* Hero section bottom padding increase */
