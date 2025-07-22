@@ -7,6 +7,7 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  overflow-x: hidden !important;
 }
 h2,
 h3,
@@ -761,5 +762,38 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  
+  /* MOBILE GAP FIX: Full-width sections */
+  #about,
+  #services,
+  #solutions,
+  #portfolio,
+  #testimonials,
+  #contact,
+  #promos,
+  #footer {
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Ensure content containers maintain proper spacing */
+  #about .container,
+  #services .container,
+  #solutions .container,
+  #portfolio .container,
+  #testimonials .container,
+  #contact .container,
+  #promos .container,
+  #footer .container {
+    max-width: 1170px !important;
+    margin: 0 auto !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
