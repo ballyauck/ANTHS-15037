@@ -189,7 +189,15 @@ hr {
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
-    width: calc(100% - 60px) !important;
+    width: calc(100% - 50px) !important;
+    position: relative !important;
+  }
+  
+  /* Ensure navbar has proper flex layout for hamburger positioning */
+  #menu .container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
     position: relative !important;
   }
   
@@ -199,15 +207,16 @@ hr {
     padding: 8px 0 !important;
   }
   
-  /* Call Now button - positioned below logo */
+  /* Call Now button - positioned below logo with original size */
   .navbar-call-btn {
     position: static !important;
-    display: block !important;
+    display: inline-block !important;
     margin: 0 !important;
     padding: 6px 12px !important;
     font-size: 11px !important;
     border-radius: 15px !important;
     width: auto !important;
+    max-width: fit-content !important;
     z-index: 1001 !important;
   }
   
@@ -215,13 +224,14 @@ hr {
     display: inline !important;
   }
   
-  /* Hamburger menu - stays right-aligned and centered */
+  /* Hamburger menu - stays right-aligned and visible */
   .navbar-toggle {
-    position: absolute !important;
-    right: 15px !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    margin: 0 !important;
+    position: relative !important;
+    right: 0 !important;
+    top: 0 !important;
+    transform: none !important;
+    margin: 10px 0 !important;
+    align-self: center !important;
   }
 
   /* Hero section bottom padding increase */
@@ -247,16 +257,15 @@ hr {
     box-sizing: border-box !important;
   }
 
-  /* RESTORE Hero section and navigation to normal behavior */
+  /* RESTORE Hero section to normal behavior */
   header,
-  header .intro,
-  #menu {
+  header .intro {
     position: static !important;
     left: auto !important;
     right: auto !important;
-    width: auto !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     max-width: none !important;
   }
 
@@ -832,16 +841,15 @@ label {
     box-sizing: border-box !important;
   }
 
-  /* RESTORE Hero section and navigation to normal behavior */
+  /* RESTORE Hero section to normal behavior */
   header,
-  header .intro,
-  #menu {
+  header .intro {
     position: static !important;
     left: auto !important;
     right: auto !important;
-    width: auto !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     max-width: none !important;
   }
 
