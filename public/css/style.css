@@ -183,26 +183,6 @@ hr {
 
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
-  /* Only prevent horizontal overflow on mobile */
-  body, html {
-    overflow-x: hidden !important;
-  }
-
-  /* Ensure navbar and hero section maintain normal behavior */
-  #menu, 
-  #menu .container,
-  .navbar-header,
-  header,
-  .intro {
-    width: auto !important;
-    max-width: none !important;
-    transform: none !important;
-    left: auto !important;
-    position: relative !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
   .navbar-call-btn {
     right: 70px !important;
     padding: 8px 12px !important;
@@ -218,56 +198,6 @@ hr {
   /* Hero section bottom padding increase */
   header .intro-text {
     padding-bottom: 10px !important;
-  }
-
-  /* Force full width sections with better calculation - exclude header/nav */
-  #about,
-  #services,
-  #solutions,
-  #portfolio,
-  #testimonials,
-  #contact,
-  #promos {
-    width: 100vw !important;
-    position: relative !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  /* Explicitly reset header elements */
-  header .intro-text {
-    transform: none !important;
-    left: auto !important;
-    width: auto !important;
-    position: relative !important;
-  }
-
-  /* Center content within full-width sections */
-  #about .container,
-  #services .container,
-  #solutions .container,
-  #portfolio .container,
-  #testimonials .container,
-  #contact .container,
-  #promos .container {
-    max-width: 100% !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-    margin: 0 auto !important;
-    width: 100% !important;
-  }
-
-  /* Ensure text content is centered */
-  #about .section-title,
-  #services .section-title,
-  #solutions .section-title,
-  #portfolio .section-title,
-  #testimonials .section-title,
-  #contact .section-title,
-  #promos .section-title {
-    text-align: center !important;
   }
 
   /* Social media icons grid - 2 rows of 3 */
