@@ -275,7 +275,7 @@ hr {
     margin-top: 15px !important;
   }
 
-  /* SOLUTION: Full-width sections with proper centering */
+  /* SOLUTION: Full-width sections with true centering */
   #about,
   #services,
   #solutions,
@@ -284,11 +284,12 @@ hr {
   #contact,
   #promos,
   #footer {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
-    width: calc(100% + 30px) !important;
+    box-sizing: border-box !important;
   }
 
   /* RESTORE Hero section to normal behavior */
@@ -872,7 +873,7 @@ label {
     margin: 0;
   }
   
-  /* MOBILE GAP FIX: Full-width sections with proper centering */
+  /* MOBILE GAP FIX: Full-width sections with true centering */
   #about,
   #services,
   #solutions,
@@ -881,11 +882,12 @@ label {
   #contact,
   #promos,
   #footer {
-    margin-left: -15px !important;
-    margin-right: -15px !important;
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
-    width: calc(100% + 30px) !important;
+    box-sizing: border-box !important;
   }
 
   /* RESTORE Hero section to normal behavior */
