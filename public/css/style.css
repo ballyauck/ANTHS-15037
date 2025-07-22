@@ -200,36 +200,39 @@ hr {
     padding-bottom: 10px !important;
   }
 
-  /* Safe full-width sections - only target specific content sections */
+  /* Force true edge-to-edge sections on mobile */
   #services,
   #solutions,
   #portfolio,
   #testimonials,
   #contact,
   #promos {
-    margin-left: -15px;
-    margin-right: -15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 100vw !important;
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
+    max-width: none !important;
+    box-sizing: border-box !important;
+    position: relative !important;
   }
 
-  /* Ensure sections extend to viewport edges */
+  /* Ensure body has no constraints */
   body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    width: 100% !important;
   }
 
-  #services,
-  #solutions, 
-  #portfolio,
-  #testimonials,
-  #contact,
-  #promos {
-    box-sizing: border-box;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
+  /* Keep content properly padded within full-width sections */
+  #services .container,
+  #solutions .container,
+  #portfolio .container,
+  #testimonials .container,
+  #contact .container,
+  #promos .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    max-width: 100% !important;
   }
 
   /* Social media icons grid - 2 rows of 3 */
