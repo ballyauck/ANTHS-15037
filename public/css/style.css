@@ -194,6 +194,49 @@ hr {
   .navbar-call-btn .call-text {
     display: inline !important;
   }
+
+  /* Hero section bottom padding increase */
+  header .intro-text {
+    padding-bottom: 10px !important;
+  }
+
+  /* Full width sections on mobile */
+  #services,
+  #solutions,
+  #portfolio,
+  #testimonials,
+  #contact {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    width: calc(100% + 30px) !important;
+  }
+
+  /* Center content within full-width sections */
+  #services .container,
+  #solutions .container,
+  #portfolio .container,
+  #testimonials .container,
+  #contact .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Social media icons grid - 2 rows of 3 */
+  #contact .social ul {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    gap: 15px !important;
+    max-width: 300px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  #contact .social ul li {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 !important;
+  }
 }
 
 /* Ensure navbar header has relative positioning */
