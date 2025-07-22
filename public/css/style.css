@@ -257,9 +257,9 @@ hr {
     margin-bottom: 30px !important;
   }
   
-  /* Remove About section padding and add minimal top space */
+  /* Remove About section padding entirely */
   #about {
-    padding: 20px 0 0 0 !important;
+    padding: 0 !important;
   }
   
   /* Scale down LEARN MORE button to match Hero text scaling */
