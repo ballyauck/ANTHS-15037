@@ -184,39 +184,28 @@ hr {
 
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
-  /* Rearrange navbar for vertical layout */
+  /* Simple vertical layout for navbar-header */
   .navbar-header {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    width: calc(100% - 50px) !important;
-    position: relative !important;
+    float: none !important;
+    width: auto !important;
   }
   
-  /* Ensure navbar has proper flex layout for hamburger positioning */
-  #menu .container {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: flex-start !important;
-    position: relative !important;
-  }
-  
-  /* Logo positioning - stays on top */
+  /* Logo positioning - normal flow */
   #menu a.navbar-brand {
-    margin-bottom: 5px !important;
-    padding: 8px 0 !important;
+    display: block !important;
+    float: none !important;
+    margin-bottom: 8px !important;
+    padding: 8px 15px !important;
   }
   
-  /* Call Now button - positioned below logo with original size */
+  /* Call Now button - positioned below logo */
   .navbar-call-btn {
-    position: static !important;
+    position: relative !important;
     display: inline-block !important;
-    margin: 0 !important;
+    margin: 0 15px 8px 15px !important;
     padding: 6px 12px !important;
     font-size: 11px !important;
     border-radius: 15px !important;
-    width: auto !important;
-    max-width: fit-content !important;
     z-index: 1001 !important;
   }
   
@@ -224,14 +213,12 @@ hr {
     display: inline !important;
   }
   
-  /* Hamburger menu - stays right-aligned and visible */
+  /* Hamburger menu - stays in top right */
   .navbar-toggle {
-    position: relative !important;
-    right: 0 !important;
-    top: 0 !important;
-    transform: none !important;
-    margin: 10px 0 !important;
-    align-self: center !important;
+    position: absolute !important;
+    right: 15px !important;
+    top: 15px !important;
+    margin: 0 !important;
   }
 
   /* Hero section bottom padding increase */
