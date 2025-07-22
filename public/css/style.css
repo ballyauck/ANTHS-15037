@@ -188,6 +188,21 @@ hr {
     overflow-x: hidden !important;
   }
 
+  /* Ensure navbar and hero section maintain normal behavior */
+  #menu, 
+  #menu .container,
+  .navbar-header,
+  header,
+  .intro {
+    width: auto !important;
+    max-width: none !important;
+    transform: none !important;
+    left: auto !important;
+    position: relative !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
   .navbar-call-btn {
     right: 70px !important;
     padding: 8px 12px !important;
@@ -205,7 +220,7 @@ hr {
     padding-bottom: 10px !important;
   }
 
-  /* Force full width sections with better calculation */
+  /* Force full width sections with better calculation - exclude header/nav */
   #about,
   #services,
   #solutions,
@@ -219,6 +234,14 @@ hr {
     transform: translateX(-50%) !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
+  }
+
+  /* Explicitly reset header elements */
+  header .intro-text {
+    transform: none !important;
+    left: auto !important;
+    width: auto !important;
+    position: relative !important;
   }
 
   /* Center content within full-width sections */
