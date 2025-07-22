@@ -190,19 +190,22 @@ hr {
     width: auto !important;
   }
   
-  /* Logo positioning - normal flow */
+  /* Logo positioning - normal flow with 10% size reduction */
   #menu a.navbar-brand {
     display: block !important;
     float: none !important;
     margin-bottom: 8px !important;
-    padding: 8px 15px !important;
+    padding: 10px 15px !important;
+    font-size: 22px !important;
+    transform: scale(0.9) !important;
+    transform-origin: left center !important;
   }
   
   /* Call Now button - positioned below logo */
   .navbar-call-btn {
     position: relative !important;
     display: inline-block !important;
-    margin: 30px 15px -22px 15px !important;
+    margin: 25px 15px -22px 15px !important;
     padding: 6px 12px !important;
     font-size: 11px !important;
     border-radius: 15px !important;
@@ -243,6 +246,13 @@ hr {
   /* Reduce About section top padding to eliminate gap */
   #about {
     padding-top: 20px !important;
+  }
+  
+  /* Scale down LEARN MORE button to match Hero text scaling */
+  .intro .btn-custom {
+    font-size: 12px !important;
+    padding: 10px 20px !important;
+    margin-top: 15px !important;
   }
 
   /* SOLUTION: Full-width sections using position relative approach */
