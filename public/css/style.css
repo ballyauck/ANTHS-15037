@@ -185,11 +185,14 @@ hr {
 /* Mobile responsive adjustments */
 @media (max-width: 767px) {
   .navbar-call-btn {
-    right: 70px !important;
-    padding: 8px 12px !important;
-    font-size: 12px !important;
-    border-radius: 20px !important;
+    right: 60px !important;
+    top: 15px !important;
+    position: absolute !important;
+    padding: 6px 10px !important;
+    font-size: 11px !important;
+    border-radius: 15px !important;
     min-width: auto !important;
+    z-index: 1001 !important;
   }
   
   .navbar-call-btn .call-text {
@@ -219,22 +222,22 @@ hr {
     box-sizing: border-box !important;
   }
 
-  /* PRESERVE Hero section and navigation positioning */
+  /* RESTORE Hero section and navigation to normal behavior */
   header,
   header .intro,
   #menu {
-    position: relative !important;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    width: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     max-width: none !important;
   }
 
-  /* Ensure navbar container maintains proper width */
+  /* Reset navbar container to normal Bootstrap behavior */
   #menu .container {
-    width: 100% !important;
+    width: auto !important;
     max-width: 1170px !important;
     margin: 0 auto !important;
     padding-left: 15px !important;
@@ -804,22 +807,22 @@ label {
     box-sizing: border-box !important;
   }
 
-  /* PRESERVE Hero section and navigation positioning */
+  /* RESTORE Hero section and navigation to normal behavior */
   header,
   header .intro,
   #menu {
-    position: relative !important;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    width: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     max-width: none !important;
   }
 
-  /* Ensure navbar container maintains proper width */
+  /* Reset navbar container to normal Bootstrap behavior */
   #menu .container {
-    width: 100% !important;
+    width: auto !important;
     max-width: 1170px !important;
     margin: 0 auto !important;
     padding-left: 15px !important;
