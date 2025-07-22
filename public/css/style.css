@@ -192,13 +192,19 @@ hr {
     max-width: 100% !important;
   }
 
-  /* Ensure main app container doesn't constrain width */
-  body > div, .App, #root {
+  /* Ensure main app container doesn't constrain width but exclude navbar */
+  body > div:not(#menu), .App, #root {
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
     overflow-x: hidden !important;
+  }
+
+  /* Reset navbar containers to normal behavior */
+  #menu, #menu .container, .navbar-header {
+    width: auto !important;
+    max-width: none !important;
   }
 
   .navbar-call-btn {
