@@ -200,7 +200,7 @@ hr {
     padding-bottom: 10px !important;
   }
 
-  /* Full width sections on mobile */
+  /* Full width sections on mobile - extend beyond container */
   #services,
   #solutions,
   #portfolio,
@@ -208,7 +208,12 @@ hr {
   #contact {
     margin-left: -15px !important;
     margin-right: -15px !important;
-    width: calc(100% + 30px) !important;
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
   }
 
   /* Center content within full-width sections */
@@ -217,8 +222,20 @@ hr {
   #portfolio .container,
   #testimonials .container,
   #contact .container {
+    max-width: 100% !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+  /* Ensure text content is centered */
+  #services .section-title,
+  #solutions .section-title,
+  #portfolio .section-title,
+  #testimonials .section-title,
+  #contact .section-title {
+    text-align: center !important;
   }
 
   /* Social media icons grid - 2 rows of 3 */
