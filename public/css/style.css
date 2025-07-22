@@ -255,7 +255,7 @@ hr {
   
   /* Remove About section padding entirely and row spacing */
   #about {
-    padding: 0 !important;
+    padding: 20px 0 0 0 !important;
   }
   
   /* Remove all spacing between underscore and photo - force it */
