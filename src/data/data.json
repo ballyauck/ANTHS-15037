@@ -83,12 +83,12 @@
     {
       "icon": "fa fa-leaf",
       "name": "Solar & Energy Efficiency Add-ons",
-      "text": "Solar PV and battery energy storage system (BESS) installations, LED lighting retrofits, smart monitoring meters, and energy audits. These will help you reduce your electricity costs while contributing to a sustainable future."
+      "text": "Solar PV and battery energy storage system (BESS) installations with hot water cylinder integration, LED lighting retrofits, smart monitoring meters, and energy audits. Purchasing any of these services will help you greatly reduce your electricity costs while contributing to a sustainable future."
     },
     {
       "icon": "fa fa-home",
       "name": "Smart Home & Office Automation",
-      "text": "Transform your home and workspace with intelligent lighting, smart thermostats, security systems, and voice-controlled devices. Complete smart home and office design and installation for modern living and working."
+      "text": "Transform your home and workspace with intelligent lighting, smart thermostats, security systems, and behaviour-learning devices. Complete smart home and office design and installation for modern living and working."
     },
     {
       "icon": "fa fa-car",
@@ -98,7 +98,7 @@
     {
       "icon": "fa fa-shield",
       "name": "Safety & Compliance",
-      "text": "Electrical inspections, code compliance corrections, surge protection, and safety upgrades. We help to ensure your electrical systems meet all current safety standards and regulations."
+      "text": "Electrical inspections, code compliance corrections, installation protection, and personnel safety upgrades. We help to ensure your electrical systems meet all current safety standards and regulations."
     },
     {
       "icon": "fa fa-clock-o",
@@ -190,14 +190,14 @@
       "title": "Energy Cost Savings through Energy Efficiency & Solar PV Adoption",
       "text": "",
       "image": "",
-      "description": "It's not just New Zealand; energy costs are rising globally, unfortunately. We're vested in helping families, businesses, and the larger community adopt ways of reducing their electricity bills. We use a two-pronged approach. The first aspect is the use of modern technology such as LED lighting, smart sensor switches, and timer switches to stop unnecessary electricity consumption. The second aspect is the use of Solar PV technology, standalone or combined with a tiered BESS for even more savings. Talk to us to find out more."
+      "description": "It's not just New Zealand; energy costs are rising globally, unfortunately. We're vested in helping families, businesses, and the larger community adopt ways of reducing their electricity bills. We use a two-pronged approach. The first aspect is the use of modern technology such as LED lighting, smart sensor switches, and timer switches to stop unnecessary electricity consumption. The second aspect is the use of Solar PV technology, standalone or combined with a tiered BESS and catch relays for even more savings. Talk to us to find out more."
     },
     {
       "icon": "",
       "title": "Maintenance Optimization through Energy Audits & Power Quality Analysis",
       "text": "",
       "image": "",
-      "description": "Our experience has shown us that the majority of installation component failures i.e. protection relays, surge protectors, circuit breakers, cables, etc, are due to stress from aging and/or intermittently faulty equipment and fittings. We have the expertise to audit and analyze your industrial and commercial electrical installation for issues that could result in costly repairs, before they actually occur. Please get in touch if you're interested in finding out more."
+      "description": "Our experience has shown us that the majority of installation component failures i.e. protection relays, surge protectors, circuit breakers, cables, etc, are due to stress from aging and/or intermittently faulty equipment and fittings. We have the expertise to help you audit and analyze your industrial and commercial electrical installation for issues that could result in costly repairs, before they actually occur. Please get in touch if you're interested in finding out more."
     }
   ],
   "Partners": [

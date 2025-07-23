@@ -55,7 +55,7 @@ export const Header = (props) => {
                   className="btn btn-custom btn-lg page-scroll"
                   style={{ marginTop: '-40px' }}
                 >
-                  Learn More
+                  Find Out More
                 </a>{" "}
               </div>
             </div>
