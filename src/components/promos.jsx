@@ -26,6 +26,8 @@ export const Promos = (props) => {
                   <a 
                     href={`promo${i + 1}.html`}
                     className="promo-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{ 
                       cursor: 'pointer',
                       textDecoration: 'none',
@@ -39,6 +41,8 @@ export const Promos = (props) => {
                     <div className="promo-content">
                       <h3>{d.title}</h3>
                       <p className="promo-description">{d.description}</p>
+                    </div>
+                    <div className="promo-bottom">
                       <div className="promo-offer">
                         <span className="offer-text">{d.offer}</span>
                         {d.discount && (

@@ -40,8 +40,17 @@ export const About = (props) => {
               </div>
               <div className="terms-note">
                 <p>
-                  <a href="/terms/maintenance-terms.html" className="terms-link">
+                  <a href="/terms/maintenance-terms.html" className="terms-link" target="_blank" rel="noopener noreferrer">
                     * Terms and Conditions Apply
+                  </a>
+                  {" | "}
+                  <a 
+                    href="https://www.ewrb.govt.nz/registration/changes-to-electrical-worker-registration/registration-class-changes/" 
+                    className="terms-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ** Requires Mains Parallel Endorsement
                   </a>
                 </p>
               </div>

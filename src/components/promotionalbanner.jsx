@@ -28,7 +28,7 @@ export const PromotionalBanner = () => {
       type: "multimedia",
       content: (
         <span>
-          🔧 One-day residential & commercial switchboard upgrades for $300 excluding parts (Ends 31 August 2025); click for more info
+          🔧 One-day residential & commercial switchboard upgrades for $399 excluding parts (Ends 31 August 2025); click for more info
         </span>
       )
     },

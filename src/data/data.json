@@ -13,7 +13,7 @@
 	  "Preventive Maintenance Programs"
     ],
     "Why2": [
-	  "Safety & Code Compliance Guaranteed",
+	  "Safety & Code Compliance Guaranteed, especially for Solar PV works**",
       "Residential, Commercial and Industrial Expertise",
 	  "Emergency Response within 24 hours maximum*"
     ]
@@ -143,11 +143,11 @@
   "Promos": [
     {
       "icon": "fa fa-bolt",
-      "title": "Emergency Service Special",
-      "description": "24/7 emergency electrical services with no call-out fee for first-time customers.",
-      "offer": "FREE Call-Out Fee",
-      "discount": "Save $150",
-      "terms": "Valid for new customers only. Expires end of month."
+      "title": "$399 Residential & Commercial Switchboard Replacement/Upgrade",
+      "description": "Switchboard replacement/upgrade/new install with no call-out fee and $399 labour cost*.",
+      "offer": "Heavily discounted labour cost",
+      "discount": "Save heaps",
+      "terms": "*Click to read details. Expires end of August 2025."
     },
     {
       "icon": "fa fa-home",
@@ -190,7 +190,7 @@
       "title": "Energy Cost Savings through Energy Efficiency & Solar PV Adoption",
       "text": "",
       "image": "",
-      "description": "It's not just New Zealand; energy costs are rising globally, unfortunately. We're vested in helping families, businesses, and the larger community adopt ways of reducing their electricity bills. We use a two-pronged approach. The first aspect is the use of modern technology such as LED lighting, smart sensor switches, and timer switches to stop unnecessary electricity consumption. The second aspect is the use of Solar PV technology, standalone or combined with a tiered BESS and catch relays for even more savings. Talk to us to find out more."
+      "description": "It's not just New Zealand; energy costs are rising globally, unfortunately. We're vested in helping families, businesses, and the larger community adopt ways of reducing their electricity bills. We use a two-pronged approach. The first aspect is the use of modern technology such as LED lighting, smart sensor switches, and timer switches to stop unnecessary electricity consumption. The second aspect is the use of Solar PV technology, standalone or combined with a tiered BESS and/or smart relays (e.g. catch power green CATCH) for even more savings. Talk to us to find out more."
     },
     {
       "icon": "",
@@ -204,12 +204,17 @@
     {
       "name": "Yuccan Technologies",
       "image": "img/Yuccan Vector Transparent.png",
-      "url": "https://yuccan.tech"
+      "url": "https://yuccan.tech/"
     },
     {
       "name": "Active Electrical Suppliers",
       "image": "img/Active_Electrical.png",
-      "url": "https://example2.com"
+      "url": "https://www.goactive.nz/"
+    },
+    {
+      "name": "Vesta Electrical Suppliers",
+      "image": "img/VESTA LOGO 2.png",
+      "url": "https://www.vestaelectrical.co.nz/"
     }
   ]
 }

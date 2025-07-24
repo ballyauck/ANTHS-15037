@@ -153,6 +153,21 @@ export const Contact = (props) => {
                   </div>
                 )}
                 
+                {/* Privacy Notice */}
+                <div className="privacy-notice" style={{margin: '15px 0', fontSize: '14px', color: '#666'}}>
+                  <p>
+                    By submitting this form, you agree to our{" "}
+                    <a href="/terms/terms-of-use.html" target="_blank" rel="noopener noreferrer" style={{color: '#f8825a'}}>
+                      Terms of Use
+                    </a>
+                    {" "}and{" "}
+                    <a href="/terms/privacy-policy.html" target="_blank" rel="noopener noreferrer" style={{color: '#f8825a'}}>
+                      Privacy Policy
+                    </a>
+                    .
+                  </p>
+                </div>
+                
                 <button 
                   type="submit" 
                   className="btn btn-custom btn-lg"
@@ -224,6 +239,23 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
+          <div className="footer-links" style={{marginBottom: '15px'}}>
+            <a href="/terms/terms-of-use.html" target="_blank" rel="noopener noreferrer" style={{color: '#f8825a', textDecoration: 'none', margin: '0 10px'}}>
+              Terms of Use
+            </a>
+            <span style={{color: '#666'}}>|</span>
+            <a href="/terms/privacy-policy.html" target="_blank" rel="noopener noreferrer" style={{color: '#f8825a', textDecoration: 'none', margin: '0 10px'}}>
+              Privacy Policy
+            </a>
+            <span style={{color: '#666'}}>|</span>
+            <a href="/terms/disclaimer.html" target="_blank" rel="noopener noreferrer" style={{color: '#f8825a', textDecoration: 'none', margin: '0 10px'}}>
+              Disclaimer
+            </a>
+            <span style={{color: '#666'}}>|</span>
+            <a href="/terms/maintenance-terms.html" target="_blank" rel="noopener noreferrer" style={{color: '#f8825a', textDecoration: 'none', margin: '0 10px'}}>
+              Maintenance Terms
+            </a>
+          </div>
           <p>
             &copy; {new Date().getFullYear()} CyberElectrix Ltd. Designed and Administered by{" "}
             <a href="https://yuccan.tech" target="_blank" rel="noopener noreferrer">
