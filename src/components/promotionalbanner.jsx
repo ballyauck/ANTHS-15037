@@ -28,7 +28,7 @@ export const PromotionalBanner = () => {
       type: "multimedia",
       content: (
         <span>
-          🔧 One-day residential & commercial switchboard upgrades for $399 excluding parts (Ends 31 August 2025); click for more info
+          🔧 One-day residential & commercial switchboard replacement/upgrade for $399 excluding parts (Ends 31 August 2025); click for more info
         </span>
       )
     },
@@ -36,7 +36,7 @@ export const PromotionalBanner = () => {
       type: "multimedia",
       content: (
         <span>
-          💡 Save on your power bill this winter with our LED downlight retrofit deal for $30 per downlight flat rate (Ends 31 August 2025); click for more info
+          💡 Save on your power bill this winter with our LED downlight and batten replacement deal for between $20 & $45 per downlight, and between $60 & $80 per batten, flat rate (Ends 31 August 2025); click for more info
         </span>
       )
     },
@@ -44,7 +44,7 @@ export const PromotionalBanner = () => {
       type: "multimedia",
       content: (
         <span>
-          ⏱️ Another power bill saver! Get our hot water cylinder timer fully installed for $150 flat rate (Ends 31 August 2025); click for more info
+          ⏱️ Another power bill saver! Get our hot water cylinder timer fully installed for $149 flat rate (Ends 31 August 2025); click for more info
         </span>
       )
     },

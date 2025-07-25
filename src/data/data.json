@@ -144,26 +144,26 @@
     {
       "icon": "fa fa-bolt",
       "title": "$399 Residential & Commercial Switchboard Replacement/Upgrade",
-      "description": "Switchboard replacement/upgrade/new install with no call-out fee and $399 labour cost*.",
+      "description": "Switchboard replacement/upgrade with no call-out fee and $399 labour cost*.",
       "offer": "Heavily discounted labour cost",
-      "discount": "Save heaps",
+      "discount": "Save Heaps Now",
       "terms": "*Click to read details. Expires end of August 2025."
     },
     {
-      "icon": "fa fa-home",
-      "title": "Smart Home Package",
-      "description": "Complete smart home automation installation with professional setup and training.",
-      "offer": "20% OFF Installation",
-      "discount": "Up to $800 OFF",
-      "terms": "Minimum 5 smart devices required. Valid until Dec 31st."
+      "icon": "fa fa-lightbulb-o",
+      "title": "Massive Price Slash for LED Downlight & Batten Replacement; No Item More Than $80",
+      "description": "Flat rate (item + install) cost on selected LED downlights and battens.",
+      "offer": "Unbeatable flat rate for item + install",
+      "discount": "Don't Miss Out",
+      "terms": "*Click to read details. Expires end of August 2025."
     },
     {
-      "icon": "fa fa-leaf",
-      "title": "Solar & EV Combo Deal",
-      "description": "Solar panel installation with EV charging station - the perfect sustainable combo.",
-      "offer": "Bundle & Save",
-      "discount": "15% OFF Total",
-      "terms": "Both services must be booked together. Limited time offer."
+      "icon": "fa fa-clock-o",
+      "title": "$149 Hot Water Cylinder Timer Retrofit",
+      "description": "Not to be missed. In and out within the hour, flat rate (item + install) cost",
+      "offer": "Giveaway; will quickly pay for itself",
+      "discount": "Will Go Fast",
+      "terms": "*Click to read details. Expires end of August 2025."
     }
   ],
   "Contact": {
